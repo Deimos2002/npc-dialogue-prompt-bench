@@ -1,0 +1,45 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "npcbench"
+version = "0.1.0.dev0"
+description = "NPC Dialogue Prompt Bench: measures how prompt strategies change LLM-driven NPC behaviour."
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic>=2.13",
+    "pyyaml>=6.0",
+    "typer>=0.27",
+    "httpx>=0.28",
+    "numpy>=2.5",
+    "fastapi>=0.143",
+    "uvicorn>=0.54",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=9.1", "pytest-cov>=7.1", "ruff>=0.16"]
+
+[project.scripts]
+bench = "npcbench.cli:app"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/npcbench"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q --strict-markers"
+
+[tool.coverage.run]
+source = ["npcbench"]
+branch = true
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM"]
+
+[tool.ruff.lint.flake8-bugbear]
+extend-immutable-calls = ["typer.Option", "typer.Argument"]

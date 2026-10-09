@@ -1,0 +1,9 @@
+review:
+  reviewer: agent-draft-pending-user-review
+families:
+  - id: mount-hua-build-guidance
+    rationale: >-
+      All ten development scenarios depend on the same four-stat rules and elder
+      persona. They remain one conservative family for this small pilot rather
+      than being treated as ten independent samples. This family must not be
+      reused in a held-out test or split between judge calibration and validation.

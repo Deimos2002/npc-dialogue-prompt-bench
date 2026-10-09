@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mount Hua · A meeting above the clouds</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="../../node_modules/@hyperframes/player/dist/hyperframes-player.global.js"
+      defer
+    ></script>
+    <script src="../../node_modules/gsap/dist/gsap.min.js" defer></script>
+    <script src="demo.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <header>
+        <a class="brand" href="#"
+          ><span class="seal" aria-hidden="true">梅</span
+          ><span>MOUNT HUA<small>THE PLUM BLOSSOM PAVILION</small></span></a
+        ><span class="chapter"
+          >TRAINING COURTYARD <span> / </span> ABOVE THE CLOUDS</span
+        ><button id="reset" class="quiet">Begin again ↺</button>
+      </header>
+      <section class="encounter" aria-label="Meet the Mount Hua elder">
+        <div class="scene">
+          <hyperframes-player
+            id="elder-scene"
+            src="scene/index.html"
+            width="1920"
+            height="1080"
+            autoplay
+            loop
+            muted
+            disable-click-to-play
+            aria-label="Animated ink-wash portrait of the elder"
+          ></hyperframes-player>
+          <div class="scene-heading">
+            <span class="eyebrow">A MEETING ABOVE THE CLOUDS</span>
+            <h1>Speak with the elder</h1>
+            <p>Choose your path. Seek his counsel.</p>
+          </div>
+          <button id="motion" class="motion" aria-pressed="false">
+            Pause scene Ⅱ
+          </button>
+          <div class="scene-caption">
+            <span class="dot"></span> TRAINING COURTYARD
+            <span class="altitude">Above the clouds</span>
+          </div>
+        </div>
+        <div class="conversation">
+          <div class="speaker">
+            <span class="eyebrow">MOUNT HUA ELDER</span
+            ><span class="rank">Beyond the human realm</span>
+          </div>
+          <p id="dialogue" aria-live="polite">
+            “You have climbed far to stand here. Tell me—what do you wish to
+            become when you descend?”
+          </p>
+          <div class="suggestions" aria-label="Conversation suggestions">
+            <button data-question="Can I follow both paths?">
+              Can I follow both paths?</button
+            ><button data-question="I want to surpass everyone by tomorrow.">
+              Is there a shortcut?</button
+            ><button data-question="Wudang masters are better than you.">
+              Challenge the master
+            </button>
+          </div>
+          <form id="question-form">
+            <label class="sr-only" for="question">Speak to the elder</label
+            ><input
+              id="question"
+              maxlength="300"
+              placeholder="Speak your mind, disciple…"
+              autocomplete="off"
+              required
+            /><button class="send" aria-label="Send your question">↗</button>
+          </form>
+          <div class="conversation-foot">
+            <span>LOCAL DEMO · AUTHORED RESPONSES</span
+            ><button id="journal-toggle" class="quiet" aria-expanded="false">
+              Conversation journal ↗
+            </button>
+          </div>
+          <ol id="journal" hidden aria-label="Conversation journal"></ol>
+        </div>
+      </section>
+      <aside class="build">
+        <span class="eyebrow">YOUR CULTIVATION</span>
+        <h2>Choose your path.</h2>
+        <p class="intro">
+          A direction, not a destiny.<br />Let your foundation serve your
+          intent.
+        </p>
+        <div class="paths" role="group" aria-label="Fighting style">
+          <button class="path active" data-path="assassin" aria-pressed="true">
+            <span>01</span>
+            <div>Swift shadow<small>Speed & evasive retreats</small></div>
+            <b>↗</b></button
+          ><button class="path" data-path="fighter" aria-pressed="false">
+            <span>02</span>
+            <div>Rooted mountain<small>Power & resilience</small></div>
+            <b>↗</b></button
+          ><button class="path" data-path="hybrid" aria-pressed="false">
+            <span>03</span>
+            <div>Wind & stone<small>Movement & staying power</small></div>
+            <b>↗</b>
+          </button>
+        </div>
+        <div class="points-heading">
+          <span class="eyebrow">UNSPENT POINTS</span
+          ><label
+            ><span class="sr-only">Unspent points</span
+            ><input id="budget" type="number" min="0" max="100" value="20"
+          /></label>
+        </div>
+        <div class="stat-labels">
+          <span>FOUNDATION</span><span>NOW</span><span>ADD</span>
+        </div>
+        <div id="stats"></div>
+        <div class="allocation-total">
+          <span>Allocation preview</span><strong id="total">20 / 20</strong>
+        </div>
+        <button id="guidance" class="primary">
+          Seek the master's guidance <span>↗</span>
+        </button>
+        <button id="apply" class="apply" disabled>Apply allocation</button>
+        <p id="state-note" class="state-note" aria-live="polite">
+          Guidance previews additions. Your current stats stay unchanged until
+          you apply them.
+        </p>
+        <div class="closing">
+          <span aria-hidden="true">✿</span>
+          <p>“Haste prevents you<br />from reaching your goal.”</p>
+          <small>A traditional Chinese saying</small>
+        </div>
+      </aside>
+    </main>
+    <footer>
+      <span>INK, MIST & A LITTLE WISDOM.</span
+      ><span
+        >Original murim character · Japanese-inspired ink treatment · Scene
+        powered by Hyperframes</span
+      >
+    </footer>
+  </body>
+</html>

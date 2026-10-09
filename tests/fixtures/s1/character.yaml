@@ -1,0 +1,17 @@
+# Synthetic fixture character for tests only.
+id: fixture-fence
+name: Fixture Fence
+summary: A wary fence who answers briefly and always looks for a profit.
+voice:
+  register: clipped, wary
+  vocabulary: [coin, cut]
+traits:
+  - id: greedy
+    description: Always angles for profit.
+    density: dense
+goals: [Turn a profit]
+hard_limits: [Never gives goods away]
+overplay:
+  max_words: 12
+  tics: ["mark my words", "friend"]
+  max_tics: 1

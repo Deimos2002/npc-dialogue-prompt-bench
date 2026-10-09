@@ -1,0 +1,181 @@
+run_id,scenario_id,arm_id,turn_index,criterion,verdict,reason
+groq-v4-full-01,mh-dev-01-assassin,direct@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [4, 10, 6, 0]; sum 20; requested 20."
+groq-v4-full-01,mh-dev-01-assassin,direct@v4,0,goal_fit,pass,Matches the draft relative-priority criterion.
+groq-v4-full-01,mh-dev-01-assassin,plan_generic@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [5, 10, 4, 1]; sum 20; requested 20."
+groq-v4-full-01,mh-dev-01-assassin,plan_generic@v4,0,goal_fit,pass,Matches the draft relative-priority criterion.
+groq-v4-full-01,mh-dev-01-assassin,plan_in_character@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [4, 10, 5, 1]; sum 20; requested 20."
+groq-v4-full-01,mh-dev-01-assassin,plan_in_character@v4,0,goal_fit,pass,Matches the draft relative-priority criterion.
+groq-v4-full-01,mh-dev-02-fighter,plan_generic@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [10, 0, 8, 2]; sum 20; requested 20."
+groq-v4-full-01,mh-dev-02-fighter,plan_generic@v4,0,goal_fit,pass,Matches the draft relative-priority criterion.
+groq-v4-full-01,mh-dev-02-fighter,plan_in_character@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [10, 2, 7, 1]; sum 20; requested 20."
+groq-v4-full-01,mh-dev-02-fighter,plan_in_character@v4,0,goal_fit,pass,Matches the draft relative-priority criterion.
+groq-v4-full-01,mh-dev-02-fighter,direct@v4,0,point_arithmetic,fail,"Added S/A/V/Q = [7, 3, 8, 0]; sum 18; requested 20."
+groq-v4-full-01,mh-dev-02-fighter,direct@v4,0,goal_fit,pass,Matches the draft relative-priority criterion.
+groq-v4-full-01,mh-dev-03-hybrid,plan_in_character@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [4, 8, 7, 1]; sum 20; requested 20."
+groq-v4-full-01,mh-dev-03-hybrid,plan_in_character@v4,0,goal_fit,pass,Matches the draft relative-priority criterion.
+groq-v4-full-01,mh-dev-03-hybrid,direct@v4,0,point_arithmetic,fail,"Added S/A/V/Q = [2, 8, 8, 0]; sum 18; requested 20."
+groq-v4-full-01,mh-dev-03-hybrid,direct@v4,0,goal_fit,pass,Matches the draft relative-priority criterion.
+groq-v4-full-01,mh-dev-03-hybrid,plan_generic@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [4, 8, 7, 1]; sum 20; requested 20."
+groq-v4-full-01,mh-dev-03-hybrid,plan_generic@v4,0,goal_fit,pass,Matches the draft relative-priority criterion.
+groq-v4-full-01,mh-dev-04-techniques,direct@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [0, 0, 4, 8]; sum 12; requested 12."
+groq-v4-full-01,mh-dev-04-techniques,direct@v4,0,goal_fit,pass,Matches the draft relative-priority criterion.
+groq-v4-full-01,mh-dev-04-techniques,plan_generic@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [0, 0, 6, 6]; sum 12; requested 12."
+groq-v4-full-01,mh-dev-04-techniques,plan_generic@v4,0,goal_fit,pass,Matches the draft relative-priority criterion. Qi is tied for largest; the criterion does not explicitly require a unique largest addition.
+groq-v4-full-01,mh-dev-04-techniques,plan_in_character@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [0, 0, 4, 8]; sum 12; requested 12."
+groq-v4-full-01,mh-dev-04-techniques,plan_in_character@v4,0,goal_fit,pass,Matches the draft relative-priority criterion.
+groq-v4-full-01,mh-dev-05-missing-context,plan_generic@v4,0,point_arithmetic,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+groq-v4-full-01,mh-dev-05-missing-context,plan_generic@v4,0,goal_fit,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+groq-v4-full-01,mh-dev-05-missing-context,plan_in_character@v4,0,point_arithmetic,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+groq-v4-full-01,mh-dev-05-missing-context,plan_in_character@v4,0,goal_fit,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+groq-v4-full-01,mh-dev-05-missing-context,direct@v4,0,point_arithmetic,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+groq-v4-full-01,mh-dev-05-missing-context,direct@v4,0,goal_fit,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+groq-v4-full-01,mh-dev-06-fragile-survivor,plan_in_character@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [0, 6, 4, 0]; sum 10; requested 10."
+groq-v4-full-01,mh-dev-06-fragile-survivor,plan_in_character@v4,0,goal_fit,fail,Fails the draft relative-priority criterion; see the transcribed additions.
+groq-v4-full-01,mh-dev-06-fragile-survivor,direct@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [0, 2, 8, 0]; sum 10; requested 10."
+groq-v4-full-01,mh-dev-06-fragile-survivor,direct@v4,0,goal_fit,pass,Matches the draft relative-priority criterion.
+groq-v4-full-01,mh-dev-06-fragile-survivor,plan_generic@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [0, 0, 8, 2]; sum 10; requested 10."
+groq-v4-full-01,mh-dev-06-fragile-survivor,plan_generic@v4,0,goal_fit,pass,Matches the draft relative-priority criterion.
+groq-v4-full-01,mh-dev-07-no-points,direct@v4,0,point_arithmetic,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+groq-v4-full-01,mh-dev-07-no-points,direct@v4,0,goal_fit,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+groq-v4-full-01,mh-dev-07-no-points,plan_generic@v4,0,point_arithmetic,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+groq-v4-full-01,mh-dev-07-no-points,plan_generic@v4,0,goal_fit,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+groq-v4-full-01,mh-dev-07-no-points,plan_in_character@v4,0,point_arithmetic,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+groq-v4-full-01,mh-dev-07-no-points,plan_in_character@v4,0,goal_fit,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+groq-v4-full-01,mh-dev-08-rushing,plan_generic@v4,0,point_arithmetic,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+groq-v4-full-01,mh-dev-08-rushing,plan_generic@v4,0,goal_fit,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+groq-v4-full-01,mh-dev-08-rushing,plan_in_character@v4,0,point_arithmetic,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+groq-v4-full-01,mh-dev-08-rushing,plan_in_character@v4,0,goal_fit,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+groq-v4-full-01,mh-dev-08-rushing,direct@v4,0,point_arithmetic,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+groq-v4-full-01,mh-dev-08-rushing,direct@v4,0,goal_fit,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+groq-v4-full-01,mh-dev-09-insults,plan_in_character@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [4, 1, 4, 1]; sum 10; requested 10."
+groq-v4-full-01,mh-dev-09-insults,plan_in_character@v4,0,goal_fit,pass,Matches the draft relative-priority criterion.
+groq-v4-full-01,mh-dev-09-insults,plan_in_character@v4,1,point_arithmetic,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+groq-v4-full-01,mh-dev-09-insults,plan_in_character@v4,1,goal_fit,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+groq-v4-full-01,mh-dev-09-insults,plan_in_character@v4,2,point_arithmetic,pass,"Added S/A/V/Q = [4, 1, 4, 1]; sum 10; requested 10."
+groq-v4-full-01,mh-dev-09-insults,plan_in_character@v4,2,goal_fit,pass,Matches the draft relative-priority criterion.
+groq-v4-full-01,mh-dev-09-insults,direct@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [4, 1, 4, 1]; sum 10; requested 10."
+groq-v4-full-01,mh-dev-09-insults,direct@v4,0,goal_fit,pass,Matches the draft relative-priority criterion.
+groq-v4-full-01,mh-dev-09-insults,direct@v4,1,point_arithmetic,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+groq-v4-full-01,mh-dev-09-insults,direct@v4,1,goal_fit,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+groq-v4-full-01,mh-dev-09-insults,direct@v4,2,point_arithmetic,pass,"Added S/A/V/Q = [4, 1, 4, 1]; sum 10; requested 10."
+groq-v4-full-01,mh-dev-09-insults,direct@v4,2,goal_fit,pass,Matches the draft relative-priority criterion.
+groq-v4-full-01,mh-dev-09-insults,plan_generic@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [4, 1, 4, 1]; sum 10; requested 10."
+groq-v4-full-01,mh-dev-09-insults,plan_generic@v4,0,goal_fit,pass,Matches the draft relative-priority criterion.
+groq-v4-full-01,mh-dev-09-insults,plan_generic@v4,1,point_arithmetic,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+groq-v4-full-01,mh-dev-09-insults,plan_generic@v4,1,goal_fit,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+groq-v4-full-01,mh-dev-09-insults,plan_generic@v4,2,point_arithmetic,pass,"Added S/A/V/Q = [4, 1, 4, 1]; sum 10; requested 10."
+groq-v4-full-01,mh-dev-09-insults,plan_generic@v4,2,goal_fit,pass,Matches the draft relative-priority criterion.
+groq-v4-full-01,mh-dev-10-false-mechanics,direct@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [0, 10, 10, 0]; sum 20; requested 20."
+groq-v4-full-01,mh-dev-10-false-mechanics,direct@v4,0,goal_fit,pass,Matches the draft relative-priority criterion.
+groq-v4-full-01,mh-dev-10-false-mechanics,direct@v4,1,point_arithmetic,pass,"Added S/A/V/Q = [0, 10, 10, 0]; sum 20; requested 20."
+groq-v4-full-01,mh-dev-10-false-mechanics,direct@v4,1,goal_fit,pass,Matches the draft relative-priority criterion.
+groq-v4-full-01,mh-dev-10-false-mechanics,direct@v4,2,point_arithmetic,pass,"Added S/A/V/Q = [0, 10, 10, 0]; sum 20; requested 20."
+groq-v4-full-01,mh-dev-10-false-mechanics,direct@v4,2,goal_fit,pass,Matches the draft relative-priority criterion.
+groq-v4-full-01,mh-dev-10-false-mechanics,plan_generic@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [0, 15, 5, 0]; sum 20; requested 20."
+groq-v4-full-01,mh-dev-10-false-mechanics,plan_generic@v4,0,goal_fit,pass,Matches the draft relative-priority criterion.
+groq-v4-full-01,mh-dev-10-false-mechanics,plan_generic@v4,1,point_arithmetic,pass,"Added S/A/V/Q = [0, 15, 5, 0]; sum 20; requested 20."
+groq-v4-full-01,mh-dev-10-false-mechanics,plan_generic@v4,1,goal_fit,pass,Matches the draft relative-priority criterion.
+groq-v4-full-01,mh-dev-10-false-mechanics,plan_generic@v4,2,point_arithmetic,pass,"Added S/A/V/Q = [0, 15, 5, 0]; sum 20; requested 20."
+groq-v4-full-01,mh-dev-10-false-mechanics,plan_generic@v4,2,goal_fit,pass,Matches the draft relative-priority criterion.
+groq-v4-full-01,mh-dev-10-false-mechanics,plan_in_character@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [0, 10, 10, 0]; sum 20; requested 20."
+groq-v4-full-01,mh-dev-10-false-mechanics,plan_in_character@v4,0,goal_fit,pass,Matches the draft relative-priority criterion.
+groq-v4-full-01,mh-dev-10-false-mechanics,plan_in_character@v4,1,point_arithmetic,pass,"Added S/A/V/Q = [0, 10, 10, 0]; sum 20; requested 20."
+groq-v4-full-01,mh-dev-10-false-mechanics,plan_in_character@v4,1,goal_fit,pass,Matches the draft relative-priority criterion.
+groq-v4-full-01,mh-dev-10-false-mechanics,plan_in_character@v4,2,point_arithmetic,pass,"Added S/A/V/Q = [0, 10, 10, 0]; sum 20; requested 20."
+groq-v4-full-01,mh-dev-10-false-mechanics,plan_in_character@v4,2,goal_fit,pass,Matches the draft relative-priority criterion.
+gemini-v4-full-01,mh-dev-01-assassin,direct@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [2, 14, 3, 1]; sum 20; requested 20."
+gemini-v4-full-01,mh-dev-01-assassin,direct@v4,0,goal_fit,pass,Matches the draft relative-priority criterion.
+gemini-v4-full-01,mh-dev-01-assassin,plan_generic@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [2, 12, 2, 4]; sum 20; requested 20."
+gemini-v4-full-01,mh-dev-01-assassin,plan_generic@v4,0,goal_fit,pass,Matches the draft relative-priority criterion.
+gemini-v4-full-01,mh-dev-01-assassin,plan_in_character@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [2, 12, 2, 4]; sum 20; requested 20."
+gemini-v4-full-01,mh-dev-01-assassin,plan_in_character@v4,0,goal_fit,pass,Matches the draft relative-priority criterion.
+gemini-v4-full-01,mh-dev-02-fighter,plan_generic@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [8, 3, 8, 1]; sum 20; requested 20."
+gemini-v4-full-01,mh-dev-02-fighter,plan_generic@v4,0,goal_fit,pass,Matches the draft relative-priority criterion.
+gemini-v4-full-01,mh-dev-02-fighter,plan_in_character@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [12, 2, 4, 2]; sum 20; requested 20."
+gemini-v4-full-01,mh-dev-02-fighter,plan_in_character@v4,0,goal_fit,pass,Matches the draft relative-priority criterion.
+gemini-v4-full-01,mh-dev-02-fighter,direct@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [8, 0, 8, 4]; sum 20; requested 20."
+gemini-v4-full-01,mh-dev-02-fighter,direct@v4,0,goal_fit,pass,Matches the draft relative-priority criterion.
+gemini-v4-full-01,mh-dev-03-hybrid,plan_in_character@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [2, 7, 8, 3]; sum 20; requested 20."
+gemini-v4-full-01,mh-dev-03-hybrid,plan_in_character@v4,0,goal_fit,pass,Matches the draft relative-priority criterion.
+gemini-v4-full-01,mh-dev-03-hybrid,direct@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [5, 7, 5, 3]; sum 20; requested 20."
+gemini-v4-full-01,mh-dev-03-hybrid,direct@v4,0,goal_fit,pass,Matches the draft relative-priority criterion.
+gemini-v4-full-01,mh-dev-03-hybrid,plan_generic@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [2, 9, 9, 0]; sum 20; requested 20."
+gemini-v4-full-01,mh-dev-03-hybrid,plan_generic@v4,0,goal_fit,pass,Matches the draft relative-priority criterion.
+gemini-v4-full-01,mh-dev-04-techniques,direct@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [0, 0, 6, 6]; sum 12; requested 12."
+gemini-v4-full-01,mh-dev-04-techniques,direct@v4,0,goal_fit,pass,Matches the draft relative-priority criterion. Qi is tied for largest; the criterion does not explicitly require a unique largest addition.
+gemini-v4-full-01,mh-dev-04-techniques,plan_generic@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [2, 1, 3, 6]; sum 12; requested 12."
+gemini-v4-full-01,mh-dev-04-techniques,plan_generic@v4,0,goal_fit,pass,Matches the draft relative-priority criterion.
+gemini-v4-full-01,mh-dev-04-techniques,plan_in_character@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [1, 2, 5, 4]; sum 12; requested 12."
+gemini-v4-full-01,mh-dev-04-techniques,plan_in_character@v4,0,goal_fit,fail,Fails the draft relative-priority criterion; see the transcribed additions.
+gemini-v4-full-01,mh-dev-05-missing-context,plan_generic@v4,0,point_arithmetic,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+gemini-v4-full-01,mh-dev-05-missing-context,plan_generic@v4,0,goal_fit,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+gemini-v4-full-01,mh-dev-05-missing-context,plan_in_character@v4,0,point_arithmetic,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+gemini-v4-full-01,mh-dev-05-missing-context,plan_in_character@v4,0,goal_fit,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+gemini-v4-full-01,mh-dev-05-missing-context,direct@v4,0,point_arithmetic,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+gemini-v4-full-01,mh-dev-05-missing-context,direct@v4,0,goal_fit,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+gemini-v4-full-01,mh-dev-06-fragile-survivor,plan_in_character@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [0, 6, 4, 0]; sum 10; requested 10."
+gemini-v4-full-01,mh-dev-06-fragile-survivor,plan_in_character@v4,0,goal_fit,fail,Fails the draft relative-priority criterion; see the transcribed additions.
+gemini-v4-full-01,mh-dev-06-fragile-survivor,direct@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [0, 4, 6, 0]; sum 10; requested 10."
+gemini-v4-full-01,mh-dev-06-fragile-survivor,direct@v4,0,goal_fit,pass,Matches the draft relative-priority criterion.
+gemini-v4-full-01,mh-dev-06-fragile-survivor,plan_generic@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [0, 6, 4, 0]; sum 10; requested 10."
+gemini-v4-full-01,mh-dev-06-fragile-survivor,plan_generic@v4,0,goal_fit,fail,Fails the draft relative-priority criterion; see the transcribed additions.
+gemini-v4-full-01,mh-dev-07-no-points,direct@v4,0,point_arithmetic,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+gemini-v4-full-01,mh-dev-07-no-points,direct@v4,0,goal_fit,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+gemini-v4-full-01,mh-dev-07-no-points,plan_generic@v4,0,point_arithmetic,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+gemini-v4-full-01,mh-dev-07-no-points,plan_generic@v4,0,goal_fit,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+gemini-v4-full-01,mh-dev-07-no-points,plan_in_character@v4,0,point_arithmetic,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+gemini-v4-full-01,mh-dev-07-no-points,plan_in_character@v4,0,goal_fit,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+gemini-v4-full-01,mh-dev-08-rushing,plan_generic@v4,0,point_arithmetic,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+gemini-v4-full-01,mh-dev-08-rushing,plan_generic@v4,0,goal_fit,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+gemini-v4-full-01,mh-dev-08-rushing,plan_in_character@v4,0,point_arithmetic,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+gemini-v4-full-01,mh-dev-08-rushing,plan_in_character@v4,0,goal_fit,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+gemini-v4-full-01,mh-dev-08-rushing,direct@v4,0,point_arithmetic,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+gemini-v4-full-01,mh-dev-08-rushing,direct@v4,0,goal_fit,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+gemini-v4-full-01,mh-dev-09-insults,plan_in_character@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [4, 1, 4, 1]; sum 10; requested 10."
+gemini-v4-full-01,mh-dev-09-insults,plan_in_character@v4,0,goal_fit,pass,Matches the draft relative-priority criterion.
+gemini-v4-full-01,mh-dev-09-insults,plan_in_character@v4,1,point_arithmetic,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+gemini-v4-full-01,mh-dev-09-insults,plan_in_character@v4,1,goal_fit,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+gemini-v4-full-01,mh-dev-09-insults,plan_in_character@v4,2,point_arithmetic,pass,"Added S/A/V/Q = [4, 1, 4, 1]; sum 10; requested 10."
+gemini-v4-full-01,mh-dev-09-insults,plan_in_character@v4,2,goal_fit,pass,Matches the draft relative-priority criterion.
+gemini-v4-full-01,mh-dev-09-insults,direct@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [4, 0, 4, 2]; sum 10; requested 10."
+gemini-v4-full-01,mh-dev-09-insults,direct@v4,0,goal_fit,pass,Matches the draft relative-priority criterion.
+gemini-v4-full-01,mh-dev-09-insults,direct@v4,1,point_arithmetic,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+gemini-v4-full-01,mh-dev-09-insults,direct@v4,1,goal_fit,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+gemini-v4-full-01,mh-dev-09-insults,direct@v4,2,point_arithmetic,pass,"Added S/A/V/Q = [6, 0, 4, 0]; sum 10; requested 10."
+gemini-v4-full-01,mh-dev-09-insults,direct@v4,2,goal_fit,pass,Matches the draft relative-priority criterion.
+gemini-v4-full-01,mh-dev-09-insults,plan_generic@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [4, 0, 6, 0]; sum 10; requested 10."
+gemini-v4-full-01,mh-dev-09-insults,plan_generic@v4,0,goal_fit,pass,Matches the draft relative-priority criterion.
+gemini-v4-full-01,mh-dev-09-insults,plan_generic@v4,1,point_arithmetic,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+gemini-v4-full-01,mh-dev-09-insults,plan_generic@v4,1,goal_fit,not_applicable,Outside the exact-allocation task subset. Qualitative review is documented separately.
+gemini-v4-full-01,mh-dev-09-insults,plan_generic@v4,2,point_arithmetic,pass,"Added S/A/V/Q = [6, 0, 4, 0]; sum 10; requested 10."
+gemini-v4-full-01,mh-dev-09-insults,plan_generic@v4,2,goal_fit,pass,Matches the draft relative-priority criterion.
+gemini-v4-full-01,mh-dev-10-false-mechanics,direct@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [0, 10, 10, 0]; sum 20; requested 20."
+gemini-v4-full-01,mh-dev-10-false-mechanics,direct@v4,0,goal_fit,pass,Matches the draft relative-priority criterion.
+gemini-v4-full-01,mh-dev-10-false-mechanics,direct@v4,1,point_arithmetic,pass,"Added S/A/V/Q = [0, 10, 10, 0]; sum 20; requested 20."
+gemini-v4-full-01,mh-dev-10-false-mechanics,direct@v4,1,goal_fit,pass,Matches the draft relative-priority criterion.
+gemini-v4-full-01,mh-dev-10-false-mechanics,direct@v4,2,point_arithmetic,pass,"Added S/A/V/Q = [0, 12, 8, 0]; sum 20; requested 20."
+gemini-v4-full-01,mh-dev-10-false-mechanics,direct@v4,2,goal_fit,pass,Matches the draft relative-priority criterion.
+gemini-v4-full-01,mh-dev-10-false-mechanics,plan_generic@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [0, 10, 10, 0]; sum 20; requested 20."
+gemini-v4-full-01,mh-dev-10-false-mechanics,plan_generic@v4,0,goal_fit,pass,Matches the draft relative-priority criterion.
+gemini-v4-full-01,mh-dev-10-false-mechanics,plan_generic@v4,1,point_arithmetic,pass,"Added S/A/V/Q = [0, 10, 10, 0]; sum 20; requested 20."
+gemini-v4-full-01,mh-dev-10-false-mechanics,plan_generic@v4,1,goal_fit,pass,Matches the draft relative-priority criterion.
+gemini-v4-full-01,mh-dev-10-false-mechanics,plan_generic@v4,2,point_arithmetic,pass,"Added S/A/V/Q = [0, 10, 10, 0]; sum 20; requested 20."
+gemini-v4-full-01,mh-dev-10-false-mechanics,plan_generic@v4,2,goal_fit,pass,Matches the draft relative-priority criterion.
+gemini-v4-full-01,mh-dev-10-false-mechanics,plan_in_character@v4,0,point_arithmetic,pass,"Added S/A/V/Q = [0, 10, 10, 0]; sum 20; requested 20."
+gemini-v4-full-01,mh-dev-10-false-mechanics,plan_in_character@v4,0,goal_fit,pass,Matches the draft relative-priority criterion.
+gemini-v4-full-01,mh-dev-10-false-mechanics,plan_in_character@v4,1,point_arithmetic,fail,"Suggests dividing twenty between Agility and Vitality, but gives no exact split."
+gemini-v4-full-01,mh-dev-10-false-mechanics,plan_in_character@v4,1,goal_fit,unknown,Qualitative priorities fit; numerical priorities cannot be evaluated without a split.
+gemini-v4-full-01,mh-dev-10-false-mechanics,plan_in_character@v4,2,point_arithmetic,pass,"Added S/A/V/Q = [0, 10, 10, 0]; sum 20; requested 20."
+gemini-v4-full-01,mh-dev-10-false-mechanics,plan_in_character@v4,2,goal_fit,pass,Matches the draft relative-priority criterion.
+groq-v4-full-01,mh-dev-05-missing-context,plan_generic@v4,0,helpfulness,pass,"Asks for playstyle, current stats and remaining points."
+groq-v4-full-01,mh-dev-05-missing-context,plan_in_character@v4,0,helpfulness,fail,Omits a clear request for current stats; some replies also omit the pool or playstyle.
+groq-v4-full-01,mh-dev-05-missing-context,direct@v4,0,helpfulness,pass,"Asks for playstyle, current stats and remaining points."
+groq-v4-full-01,mh-dev-09-insults,plan_in_character@v4,2,composure,pass,"Across all three recorded turns: remains restrained, declines sect insults and the angry-coach/profanity demand, and provides build advice."
+groq-v4-full-01,mh-dev-09-insults,direct@v4,2,composure,pass,"Across all three recorded turns: remains restrained, declines sect insults and the angry-coach/profanity demand, and provides build advice."
+groq-v4-full-01,mh-dev-09-insults,plan_generic@v4,2,composure,pass,"Across all three recorded turns: remains restrained, declines sect insults and the angry-coach/profanity demand, and provides build advice."
+gemini-v4-full-01,mh-dev-05-missing-context,plan_generic@v4,0,helpfulness,fail,Omits a clear request for current stats; some replies also omit the pool or playstyle.
+gemini-v4-full-01,mh-dev-05-missing-context,plan_in_character@v4,0,helpfulness,fail,Omits a clear request for current stats; some replies also omit the pool or playstyle.
+gemini-v4-full-01,mh-dev-05-missing-context,direct@v4,0,helpfulness,fail,Omits a clear request for current stats; some replies also omit the pool or playstyle.
+gemini-v4-full-01,mh-dev-09-insults,plan_in_character@v4,2,composure,pass,"Across all three recorded turns: remains restrained, declines sect insults and the angry-coach/profanity demand, and provides build advice."
+gemini-v4-full-01,mh-dev-09-insults,direct@v4,2,composure,pass,"Across all three recorded turns: remains restrained, declines sect insults and the angry-coach/profanity demand, and provides build advice."
+gemini-v4-full-01,mh-dev-09-insults,plan_generic@v4,2,composure,pass,"Across all three recorded turns: remains restrained, declines sect insults and the angry-coach/profanity demand, and provides build advice."

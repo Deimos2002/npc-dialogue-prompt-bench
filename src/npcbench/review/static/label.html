@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blind labelling</title>
+<link rel="stylesheet" href="/static/label.css">
+</head>
+<body>
+<main>
+  <h1>Blind labelling</h1>
+  <p class="hint">Judge the reply against the character sheet only. You are not told how it
+    was produced.</p>
+  <form id="rater-form">
+    <label>Rater id <input id="rater" autocomplete="off" required></label>
+    <button type="submit">Start</button>
+  </form>
+  <section id="item" hidden>
+    <p id="progress"></p>
+    <h2>Character</h2>
+    <p><strong id="char-name"></strong>: <span id="char-summary"></span></p>
+    <p>Voice: <span id="char-voice"></span></p>
+    <ul id="char-traits"></ul>
+    <h2>Scene</h2>
+    <p id="scene"></p>
+    <ol id="conversation"></ol>
+    <p class="turn"><strong>Player:</strong> <span id="player"></span></p>
+    <p class="turn reply"><strong>Reply:</strong> <span id="reply"></span></p>
+    <form id="label-form">
+      <div id="questions"></div>
+      <button type="submit">Save label</button>
+    </form>
+    <p id="error" role="alert"></p>
+  </section>
+  <p id="done" hidden>Every reply in the sample is labelled. Thank you.</p>
+</main>
+<script src="/static/label.js"></script>
+</body>
+</html>

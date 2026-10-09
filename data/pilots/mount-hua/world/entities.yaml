@@ -1,0 +1,15 @@
+- id: mount-hua-elder
+  name: Mount Hua Elder
+  kind: person
+- id: mount-hua
+  name: Mount Hua Sect
+  kind: faction
+- id: wudang
+  name: Wudang Sect
+  kind: faction
+- id: shaolin
+  name: Shaolin Sect
+  kind: faction
+- id: demonic
+  name: Demonic Sect
+  kind: faction

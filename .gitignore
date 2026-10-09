@@ -1,0 +1,26 @@
+# Private application notes; not part of the public project
+docs/application-fit.md
+
+# Local API credentials; keep the empty example shareable
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Python and tooling
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.scratch/
+
+# Local HTML demo dependencies
+node_modules/

@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mount Hua · A meeting above the clouds</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="node_modules/@hyperframes/player/dist/hyperframes-player.global.js"
+      defer
+    ></script>
+    <script src="node_modules/gsap/dist/gsap.min.js" defer></script>
+    <script type="module" src="demo.js"></script>
+  </head>
+  <body>
+    <main>
+      <header>
+        <a class="brand" href="#"
+          ><span class="seal" aria-hidden="true">梅</span
+          ><span>MOUNT HUA<small>THE PLUM BLOSSOM PAVILION</small></span></a
+        ><span class="chapter"
+          >TRAINING COURTYARD <span> / </span> ABOVE THE CLOUDS</span
+        ><button id="reset" class="quiet">Begin again ↺</button>
+        <a class="saved-version" href="snapshots/game-v1/">Original demo ↗</a>
+      </header>
+      <section class="encounter" aria-label="Meet the Mount Hua elder">
+        <div class="scene">
+          <hyperframes-player
+            id="elder-scene"
+            src="scene/index.html"
+            width="1920"
+            height="1080"
+            autoplay
+            loop
+            muted
+            disable-click-to-play
+            aria-label="Animated ink-wash portrait of the elder"
+          ></hyperframes-player>
+          <div class="scene-heading">
+            <span class="eyebrow">A MEETING ABOVE THE CLOUDS</span>
+            <h1>Speak with the elder</h1>
+            <p>Place your points. Hear his counsel.</p>
+          </div>
+          <button id="motion" class="motion" aria-pressed="false">
+            Pause scene Ⅱ
+          </button>
+          <div class="scene-caption">
+            <span class="dot"></span> TRAINING COURTYARD
+            <span class="altitude">Above the clouds</span>
+          </div>
+        </div>
+        <div class="conversation">
+          <div class="speaker">
+            <span class="eyebrow">MOUNT HUA ELDER</span
+            ><span class="rank">Beyond the human realm</span>
+          </div>
+          <p id="dialogue" aria-live="polite">
+            “You have climbed far to stand here. Tell me—what do you wish to
+            become when you descend?”
+          </p>
+          <div class="suggestions" aria-label="Conversation suggestions">
+            <button data-question="Can I follow both paths?">
+              Can I follow both paths?</button
+            ><button data-question="I want to surpass everyone by tomorrow.">
+              Is there a shortcut?</button
+            ><button data-question="Wudang masters are better than you.">
+              Challenge the master
+            </button>
+          </div>
+          <form id="question-form">
+            <label class="sr-only" for="question">Speak to the elder</label
+            ><input
+              id="question"
+              maxlength="300"
+              placeholder="Speak your mind, disciple…"
+              autocomplete="off"
+              required
+            /><button class="send" aria-label="Send your question">↗</button>
+          </form>
+          <div class="conversation-foot">
+            <span>LOCAL DEMO · AUTHORED RESPONSES</span
+            ><button id="journal-toggle" class="quiet" aria-expanded="false">
+              Conversation journal ↗
+            </button>
+          </div>
+          <ol id="journal" hidden aria-label="Conversation journal"></ol>
+        </div>
+      </section>
+      <aside class="build" aria-label="Cultivation menu">
+        <div class="menu-title">
+          <span class="eyebrow">CULTIVATION / FOUNDATION</span
+          ><span aria-hidden="true">✦</span>
+        </div>
+        <h2>Shape your own path.</h2>
+        <div class="path-readout">
+          <small>PROJECTED PATH</small
+          ><strong id="path-name">Fourfold foundation</strong
+          ><span id="path-detail"
+            >A broad foundation across all four stats.</span
+          >
+          <label class="pool-inline"
+            ><span class="pool-title">Unspent points</span
+            ><input id="budget" type="number" min="0" max="100" value="20"
+          /></label>
+        </div>
+        <div class="allocation-scroll">
+          <div class="stat-labels">
+            <span>STAT / CURRENT → PROJECTED</span><span>ADD POINTS</span>
+          </div>
+          <div id="stats"></div>
+          <div class="draft-tools">
+            <button id="clear" class="quiet">Clear additions</button>
+            <details>
+              <summary>Example spreads</summary>
+              <div class="examples">
+                <button data-preset="swift">Swift shadow</button
+                ><button data-preset="fighter">Stone guardian</button
+                ><button data-preset="hybrid">Wind & stone</button
+                ><button data-preset="techniques">Inner flame</button>
+              </div>
+            </details>
+          </div>
+          <details class="intent-details">
+            <summary>Fighting intent · optional</summary>
+            <label class="intent-label" for="intent"
+              >Your fighting intent</label
+            >
+            <select id="intent">
+              <option value="any">Let my choices speak</option>
+              <option value="swift">Swift strikes & retreats</option>
+              <option value="fighter">Power & resilience</option>
+              <option value="hybrid">Movement & staying power</option>
+              <option value="techniques">Martial techniques</option>
+            </select>
+          </details>
+        </div>
+        <div class="allocation-actions">
+          <div class="allocation-total">
+            <span>POINTS REMAINING</span><strong id="remaining">20</strong>
+          </div>
+          <div class="pool-track" aria-hidden="true">
+            <div id="pool-fill"></div>
+          </div>
+
+          <button id="guidance" class="primary">
+            Ask the elder about this build <span>↗</span>
+          </button>
+          <button id="apply" class="apply" disabled>Commit points</button>
+          <p id="state-note" class="state-note" aria-live="polite">
+            Allocate freely. Unspent points may be kept in reserve.
+          </p>
+          <div class="menu-footer">
+            PATH NAMES DESCRIBE YOUR SPREAD · NO BONUSES
+          </div>
+        </div>
+      </aside>
+    </main>
+    <footer>
+      <span>INK, MIST & A LITTLE WISDOM.</span
+      ><span
+        >Original murim character · Japanese-inspired ink treatment · Scene
+        powered by Hyperframes</span
+      >
+    </footer>
+  </body>
+</html>

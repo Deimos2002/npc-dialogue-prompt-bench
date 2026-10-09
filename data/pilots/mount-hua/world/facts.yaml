@@ -1,0 +1,25 @@
+- id: elder-faction
+  subject: mount-hua-elder
+  predicate: belongs_to
+  object: Mount Hua Sect
+  known_from_by_character: {mount-hua-elder: training-courtyard}
+- id: strength-effect
+  subject: Strength
+  predicate: supports
+  object: physical power
+  known_from_by_character: {mount-hua-elder: training-courtyard}
+- id: agility-effect
+  subject: Agility
+  predicate: supports
+  object: speed and evasion
+  known_from_by_character: {mount-hua-elder: training-courtyard}
+- id: vitality-effect
+  subject: Vitality
+  predicate: supports
+  object: health and resilience
+  known_from_by_character: {mount-hua-elder: training-courtyard}
+- id: qi-effect
+  subject: Qi
+  predicate: supports
+  object: energy for martial techniques
+  known_from_by_character: {mount-hua-elder: training-courtyard}

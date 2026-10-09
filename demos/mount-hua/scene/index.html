@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1920,height=1080" />
+    <title>Mount Hua · ink and mist</title>
+    <script src="assets/gsap.min.js"></script>
+    <style>
+      html,
+      body {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background: #ece4d4;
+      }
+      #root {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+      }
+      .clip {
+        position: absolute;
+        inset: 0;
+      }
+      #portrait {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center 30%;
+      }
+      #mist {
+        position: absolute;
+        z-index: 1;
+        left: -10%;
+        bottom: -5%;
+        width: 120%;
+        height: 38%;
+        background: radial-gradient(ellipse, #fffaf077, transparent 70%);
+        pointer-events: none;
+      }
+      .petal {
+        position: absolute;
+        z-index: 2;
+        color: #985148;
+        font-size: 22px;
+        opacity: 0;
+      }
+      .p1 {
+        left: 18%;
+        top: 12%;
+      }
+      .p2 {
+        left: 43%;
+        top: 17%;
+      }
+      .p3 {
+        left: 8%;
+        top: 28%;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      id="root"
+      data-composition-id="elder"
+      data-start="0"
+      data-width="1920"
+      data-height="1080"
+      data-duration="16"
+    >
+      <img
+        class="clip"
+        data-start="0"
+        data-duration="16"
+        data-track-index="0"
+        id="portrait"
+        src="assets/elder.png"
+        alt="Original Mount Hua elder, white beard and ivory robes, among misty mountains and plum blossoms"
+      />
+      <div id="mist"></div>
+      <span class="petal p1" aria-hidden="true">❀</span
+      ><span class="petal p2" aria-hidden="true">❀</span
+      ><span class="petal p3" aria-hidden="true">❀</span>
+    </div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      tl.fromTo(
+        "#portrait",
+        { scale: 1.18, x: -150, y: 60 },
+        {
+          scale: 1.21,
+          x: -150,
+          y: 60,
+          duration: 8,
+          ease: "sine.inOut",
+          repeat: 1,
+          yoyo: true,
+        },
+        0,
+      );
+      tl.fromTo(
+        "#mist",
+        { x: -30, opacity: 0.25 },
+        {
+          x: 30,
+          opacity: 0.65,
+          duration: 8,
+          ease: "sine.inOut",
+          repeat: 1,
+          yoyo: true,
+        },
+        0,
+      );
+      tl.fromTo(
+        ".p1",
+        { y: 0, x: 0, rotation: 0 },
+        { y: 350, x: 110, rotation: 190, duration: 8, ease: "none" },
+        0,
+      );
+      tl.to(".p1", { opacity: 0.5, duration: 1 }, 0);
+      tl.to(".p1", { opacity: 0, duration: 2 }, 6);
+      tl.fromTo(
+        ".p2",
+        { y: 0, x: 0, rotation: 0 },
+        { y: 330, x: -80, rotation: -130, duration: 8, ease: "none" },
+        5,
+      );
+      tl.to(".p2", { opacity: 0.35, duration: 1 }, 5);
+      tl.to(".p2", { opacity: 0, duration: 2 }, 11);
+      tl.fromTo(
+        ".p3",
+        { y: 0, x: 0 },
+        { y: 260, x: 70, rotation: 120, duration: 7, ease: "none" },
+        8,
+      );
+      tl.to(".p3", { opacity: 0.4, duration: 1 }, 8);
+      tl.to(".p3", { opacity: 0, duration: 1 }, 14);
+      window.__timelines.elder = tl;
+    </script>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+{
+  "recordings_sha256": "f5de4d375ac8a3b2548abd93feefadfed7a93ca823d41e71bd3e5d2c02693283",
+  "arms": {
+    "direct@v4": {
+      "attempts": 14,
+      "reply_attempts": 14,
+      "usable_replies": 14,
+      "failed_attempts": 0,
+      "length_and_tic_pass": 14,
+      "replies_using_supplied_saying": 10,
+      "replies_ending_question": 13,
+      "successful_plans": 0,
+      "four_line_60_word_plan_pass": 0,
+      "plans_with_first_person_I": 0,
+      "median_reply_pipeline_ms": 1121.9680999964476,
+      "input_tokens": 18679,
+      "output_tokens": 1178,
+      "calls_missing_usage": 0
+    },
+    "plan_generic@v4": {
+      "attempts": 28,
+      "reply_attempts": 14,
+      "usable_replies": 14,
+      "failed_attempts": 0,
+      "length_and_tic_pass": 14,
+      "replies_using_supplied_saying": 10,
+      "replies_ending_question": 13,
+      "successful_plans": 14,
+      "four_line_60_word_plan_pass": 14,
+      "plans_with_first_person_I": 0,
+      "median_reply_pipeline_ms": 2053.2764500007033,
+      "input_tokens": 41041,
+      "output_tokens": 2013,
+      "calls_missing_usage": 0
+    },
+    "plan_in_character@v4": {
+      "attempts": 28,
+      "reply_attempts": 14,
+      "usable_replies": 14,
+      "failed_attempts": 0,
+      "length_and_tic_pass": 13,
+      "replies_using_supplied_saying": 11,
+      "replies_ending_question": 10,
+      "successful_plans": 14,
+      "four_line_60_word_plan_pass": 14,
+      "plans_with_first_person_I": 0,
+      "median_reply_pipeline_ms": 2115.035499997437,
+      "input_tokens": 41326,
+      "output_tokens": 2108,
+      "calls_missing_usage": 0
+    }
+  }
+}

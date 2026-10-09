@@ -1,0 +1,2174 @@
+{
+  "arm_model": [
+    {
+      "arm": "direct@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "all",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "banned_content",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 14
+      },
+      "unknown": 14
+    },
+    {
+      "arm": "direct@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "adversarial",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "banned_content",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 6
+      },
+      "unknown": 6
+    },
+    {
+      "arm": "direct@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "off_script",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "banned_content",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 1
+      },
+      "unknown": 1
+    },
+    {
+      "arm": "direct@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "on_script",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "banned_content",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 7
+      },
+      "unknown": 7
+    },
+    {
+      "arm": "plan_generic@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "all",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "banned_content",
+      "model": "gemini-3.5-flash-lite",
+      "n": 1,
+      "provenance": {
+        "assumed": 1,
+        "review pending": 13
+      },
+      "unknown": 13
+    },
+    {
+      "arm": "plan_generic@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "adversarial",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "banned_content",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 6
+      },
+      "unknown": 6
+    },
+    {
+      "arm": "plan_generic@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "off_script",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "banned_content",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 1
+      },
+      "unknown": 1
+    },
+    {
+      "arm": "plan_generic@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "on_script",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "banned_content",
+      "model": "gemini-3.5-flash-lite",
+      "n": 1,
+      "provenance": {
+        "assumed": 1,
+        "review pending": 6
+      },
+      "unknown": 6
+    },
+    {
+      "arm": "plan_in_character@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "all",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "banned_content",
+      "model": "gemini-3.5-flash-lite",
+      "n": 1,
+      "provenance": {
+        "assumed": 1,
+        "review pending": 13
+      },
+      "unknown": 13
+    },
+    {
+      "arm": "plan_in_character@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "adversarial",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "banned_content",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 6
+      },
+      "unknown": 6
+    },
+    {
+      "arm": "plan_in_character@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "off_script",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "banned_content",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 1
+      },
+      "unknown": 1
+    },
+    {
+      "arm": "plan_in_character@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "on_script",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "banned_content",
+      "model": "gemini-3.5-flash-lite",
+      "n": 1,
+      "provenance": {
+        "assumed": 1,
+        "review pending": 6
+      },
+      "unknown": 6
+    },
+    {
+      "arm": "direct@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "all",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "collapse",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 14
+      },
+      "unknown": 14
+    },
+    {
+      "arm": "direct@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "adversarial",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "collapse",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 6
+      },
+      "unknown": 6
+    },
+    {
+      "arm": "direct@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "off_script",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "collapse",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 1
+      },
+      "unknown": 1
+    },
+    {
+      "arm": "direct@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "on_script",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "collapse",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 7
+      },
+      "unknown": 7
+    },
+    {
+      "arm": "plan_generic@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "all",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "collapse",
+      "model": "gemini-3.5-flash-lite",
+      "n": 1,
+      "provenance": {
+        "assumed": 1,
+        "review pending": 13
+      },
+      "unknown": 13
+    },
+    {
+      "arm": "plan_generic@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "adversarial",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "collapse",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 6
+      },
+      "unknown": 6
+    },
+    {
+      "arm": "plan_generic@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "off_script",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "collapse",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 1
+      },
+      "unknown": 1
+    },
+    {
+      "arm": "plan_generic@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "on_script",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "collapse",
+      "model": "gemini-3.5-flash-lite",
+      "n": 1,
+      "provenance": {
+        "assumed": 1,
+        "review pending": 6
+      },
+      "unknown": 6
+    },
+    {
+      "arm": "plan_in_character@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "all",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "collapse",
+      "model": "gemini-3.5-flash-lite",
+      "n": 1,
+      "provenance": {
+        "assumed": 1,
+        "review pending": 13
+      },
+      "unknown": 13
+    },
+    {
+      "arm": "plan_in_character@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "adversarial",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "collapse",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 6
+      },
+      "unknown": 6
+    },
+    {
+      "arm": "plan_in_character@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "off_script",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "collapse",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 1
+      },
+      "unknown": 1
+    },
+    {
+      "arm": "plan_in_character@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "on_script",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "collapse",
+      "model": "gemini-3.5-flash-lite",
+      "n": 1,
+      "provenance": {
+        "assumed": 1,
+        "review pending": 6
+      },
+      "unknown": 6
+    },
+    {
+      "arm": "direct@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "all",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "entity_register",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 14
+      },
+      "unknown": 14
+    },
+    {
+      "arm": "direct@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "adversarial",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "entity_register",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 6
+      },
+      "unknown": 6
+    },
+    {
+      "arm": "direct@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "off_script",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "entity_register",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 1
+      },
+      "unknown": 1
+    },
+    {
+      "arm": "direct@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "on_script",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "entity_register",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 7
+      },
+      "unknown": 7
+    },
+    {
+      "arm": "plan_generic@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "all",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "entity_register",
+      "model": "gemini-3.5-flash-lite",
+      "n": 1,
+      "provenance": {
+        "assumed": 1,
+        "review pending": 13
+      },
+      "unknown": 13
+    },
+    {
+      "arm": "plan_generic@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "adversarial",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "entity_register",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 6
+      },
+      "unknown": 6
+    },
+    {
+      "arm": "plan_generic@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "off_script",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "entity_register",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 1
+      },
+      "unknown": 1
+    },
+    {
+      "arm": "plan_generic@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "on_script",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "entity_register",
+      "model": "gemini-3.5-flash-lite",
+      "n": 1,
+      "provenance": {
+        "assumed": 1,
+        "review pending": 6
+      },
+      "unknown": 6
+    },
+    {
+      "arm": "plan_in_character@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "all",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "entity_register",
+      "model": "gemini-3.5-flash-lite",
+      "n": 1,
+      "provenance": {
+        "assumed": 1,
+        "review pending": 13
+      },
+      "unknown": 13
+    },
+    {
+      "arm": "plan_in_character@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "adversarial",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "entity_register",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 6
+      },
+      "unknown": 6
+    },
+    {
+      "arm": "plan_in_character@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "off_script",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "entity_register",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 1
+      },
+      "unknown": 1
+    },
+    {
+      "arm": "plan_in_character@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "on_script",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "entity_register",
+      "model": "gemini-3.5-flash-lite",
+      "n": 1,
+      "provenance": {
+        "assumed": 1,
+        "review pending": 6
+      },
+      "unknown": 6
+    },
+    {
+      "arm": "direct@v4",
+      "class": "all",
+      "descriptive": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "execution_failure",
+      "model": "gemini-3.5-flash-lite",
+      "n": 14,
+      "provenance": {
+        "mechanical": 14
+      },
+      "unknown": 0
+    },
+    {
+      "arm": "direct@v4",
+      "class": "adversarial",
+      "descriptive": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "execution_failure",
+      "model": "gemini-3.5-flash-lite",
+      "n": 6,
+      "provenance": {
+        "mechanical": 6
+      },
+      "unknown": 0
+    },
+    {
+      "arm": "direct@v4",
+      "class": "off_script",
+      "descriptive": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "execution_failure",
+      "model": "gemini-3.5-flash-lite",
+      "n": 1,
+      "provenance": {
+        "mechanical": 1
+      },
+      "unknown": 0
+    },
+    {
+      "arm": "direct@v4",
+      "class": "on_script",
+      "descriptive": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "execution_failure",
+      "model": "gemini-3.5-flash-lite",
+      "n": 7,
+      "provenance": {
+        "mechanical": 7
+      },
+      "unknown": 0
+    },
+    {
+      "arm": "plan_generic@v4",
+      "class": "all",
+      "descriptive": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "execution_failure",
+      "model": "gemini-3.5-flash-lite",
+      "n": 14,
+      "provenance": {
+        "mechanical": 14
+      },
+      "unknown": 0
+    },
+    {
+      "arm": "plan_generic@v4",
+      "class": "adversarial",
+      "descriptive": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "execution_failure",
+      "model": "gemini-3.5-flash-lite",
+      "n": 6,
+      "provenance": {
+        "mechanical": 6
+      },
+      "unknown": 0
+    },
+    {
+      "arm": "plan_generic@v4",
+      "class": "off_script",
+      "descriptive": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "execution_failure",
+      "model": "gemini-3.5-flash-lite",
+      "n": 1,
+      "provenance": {
+        "mechanical": 1
+      },
+      "unknown": 0
+    },
+    {
+      "arm": "plan_generic@v4",
+      "class": "on_script",
+      "descriptive": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "execution_failure",
+      "model": "gemini-3.5-flash-lite",
+      "n": 7,
+      "provenance": {
+        "mechanical": 7
+      },
+      "unknown": 0
+    },
+    {
+      "arm": "plan_in_character@v4",
+      "class": "all",
+      "descriptive": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "execution_failure",
+      "model": "gemini-3.5-flash-lite",
+      "n": 14,
+      "provenance": {
+        "mechanical": 14
+      },
+      "unknown": 0
+    },
+    {
+      "arm": "plan_in_character@v4",
+      "class": "adversarial",
+      "descriptive": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "execution_failure",
+      "model": "gemini-3.5-flash-lite",
+      "n": 6,
+      "provenance": {
+        "mechanical": 6
+      },
+      "unknown": 0
+    },
+    {
+      "arm": "plan_in_character@v4",
+      "class": "off_script",
+      "descriptive": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "execution_failure",
+      "model": "gemini-3.5-flash-lite",
+      "n": 1,
+      "provenance": {
+        "mechanical": 1
+      },
+      "unknown": 0
+    },
+    {
+      "arm": "plan_in_character@v4",
+      "class": "on_script",
+      "descriptive": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "execution_failure",
+      "model": "gemini-3.5-flash-lite",
+      "n": 7,
+      "provenance": {
+        "mechanical": 7
+      },
+      "unknown": 0
+    },
+    {
+      "arm": "direct@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "all",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "forbidden_facts",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 14
+      },
+      "unknown": 14
+    },
+    {
+      "arm": "direct@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "adversarial",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "forbidden_facts",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 6
+      },
+      "unknown": 6
+    },
+    {
+      "arm": "direct@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "off_script",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "forbidden_facts",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 1
+      },
+      "unknown": 1
+    },
+    {
+      "arm": "direct@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "on_script",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "forbidden_facts",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 7
+      },
+      "unknown": 7
+    },
+    {
+      "arm": "plan_generic@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "all",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "forbidden_facts",
+      "model": "gemini-3.5-flash-lite",
+      "n": 1,
+      "provenance": {
+        "assumed": 1,
+        "review pending": 13
+      },
+      "unknown": 13
+    },
+    {
+      "arm": "plan_generic@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "adversarial",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "forbidden_facts",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 6
+      },
+      "unknown": 6
+    },
+    {
+      "arm": "plan_generic@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "off_script",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "forbidden_facts",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 1
+      },
+      "unknown": 1
+    },
+    {
+      "arm": "plan_generic@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "on_script",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "forbidden_facts",
+      "model": "gemini-3.5-flash-lite",
+      "n": 1,
+      "provenance": {
+        "assumed": 1,
+        "review pending": 6
+      },
+      "unknown": 6
+    },
+    {
+      "arm": "plan_in_character@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "all",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "forbidden_facts",
+      "model": "gemini-3.5-flash-lite",
+      "n": 1,
+      "provenance": {
+        "assumed": 1,
+        "review pending": 13
+      },
+      "unknown": 13
+    },
+    {
+      "arm": "plan_in_character@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "adversarial",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "forbidden_facts",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 6
+      },
+      "unknown": 6
+    },
+    {
+      "arm": "plan_in_character@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "off_script",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "forbidden_facts",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 1
+      },
+      "unknown": 1
+    },
+    {
+      "arm": "plan_in_character@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "on_script",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "forbidden_facts",
+      "model": "gemini-3.5-flash-lite",
+      "n": 1,
+      "provenance": {
+        "assumed": 1,
+        "review pending": 6
+      },
+      "unknown": 6
+    },
+    {
+      "arm": "direct@v4",
+      "class": "all",
+      "descriptive": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "overplay",
+      "model": "gemini-3.5-flash-lite",
+      "n": 14,
+      "provenance": {
+        "mechanical": 14
+      },
+      "unknown": 0
+    },
+    {
+      "arm": "direct@v4",
+      "class": "adversarial",
+      "descriptive": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "overplay",
+      "model": "gemini-3.5-flash-lite",
+      "n": 6,
+      "provenance": {
+        "mechanical": 6
+      },
+      "unknown": 0
+    },
+    {
+      "arm": "direct@v4",
+      "class": "off_script",
+      "descriptive": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "overplay",
+      "model": "gemini-3.5-flash-lite",
+      "n": 1,
+      "provenance": {
+        "mechanical": 1
+      },
+      "unknown": 0
+    },
+    {
+      "arm": "direct@v4",
+      "class": "on_script",
+      "descriptive": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "overplay",
+      "model": "gemini-3.5-flash-lite",
+      "n": 7,
+      "provenance": {
+        "mechanical": 7
+      },
+      "unknown": 0
+    },
+    {
+      "arm": "plan_generic@v4",
+      "class": "all",
+      "descriptive": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "overplay",
+      "model": "gemini-3.5-flash-lite",
+      "n": 14,
+      "provenance": {
+        "mechanical": 14
+      },
+      "unknown": 0
+    },
+    {
+      "arm": "plan_generic@v4",
+      "class": "adversarial",
+      "descriptive": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "overplay",
+      "model": "gemini-3.5-flash-lite",
+      "n": 6,
+      "provenance": {
+        "mechanical": 6
+      },
+      "unknown": 0
+    },
+    {
+      "arm": "plan_generic@v4",
+      "class": "off_script",
+      "descriptive": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "overplay",
+      "model": "gemini-3.5-flash-lite",
+      "n": 1,
+      "provenance": {
+        "mechanical": 1
+      },
+      "unknown": 0
+    },
+    {
+      "arm": "plan_generic@v4",
+      "class": "on_script",
+      "descriptive": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "overplay",
+      "model": "gemini-3.5-flash-lite",
+      "n": 7,
+      "provenance": {
+        "mechanical": 7
+      },
+      "unknown": 0
+    },
+    {
+      "arm": "plan_in_character@v4",
+      "class": "all",
+      "descriptive": true,
+      "families": 1,
+      "interval": [
+        0.07142857142857142,
+        0.07142857142857142
+      ],
+      "k": 1,
+      "metric": "overplay",
+      "model": "gemini-3.5-flash-lite",
+      "n": 14,
+      "provenance": {
+        "mechanical": 14
+      },
+      "unknown": 0
+    },
+    {
+      "arm": "plan_in_character@v4",
+      "class": "adversarial",
+      "descriptive": true,
+      "families": 1,
+      "interval": [
+        0.16666666666666666,
+        0.16666666666666666
+      ],
+      "k": 1,
+      "metric": "overplay",
+      "model": "gemini-3.5-flash-lite",
+      "n": 6,
+      "provenance": {
+        "mechanical": 6
+      },
+      "unknown": 0
+    },
+    {
+      "arm": "plan_in_character@v4",
+      "class": "off_script",
+      "descriptive": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "overplay",
+      "model": "gemini-3.5-flash-lite",
+      "n": 1,
+      "provenance": {
+        "mechanical": 1
+      },
+      "unknown": 0
+    },
+    {
+      "arm": "plan_in_character@v4",
+      "class": "on_script",
+      "descriptive": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "overplay",
+      "model": "gemini-3.5-flash-lite",
+      "n": 7,
+      "provenance": {
+        "mechanical": 7
+      },
+      "unknown": 0
+    },
+    {
+      "arm": "direct@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "all",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "spoiler_facts",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 14
+      },
+      "unknown": 14
+    },
+    {
+      "arm": "direct@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "adversarial",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "spoiler_facts",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 6
+      },
+      "unknown": 6
+    },
+    {
+      "arm": "direct@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "off_script",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "spoiler_facts",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 1
+      },
+      "unknown": 1
+    },
+    {
+      "arm": "direct@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "on_script",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "spoiler_facts",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 7
+      },
+      "unknown": 7
+    },
+    {
+      "arm": "plan_generic@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "all",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "spoiler_facts",
+      "model": "gemini-3.5-flash-lite",
+      "n": 1,
+      "provenance": {
+        "assumed": 1,
+        "review pending": 13
+      },
+      "unknown": 13
+    },
+    {
+      "arm": "plan_generic@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "adversarial",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "spoiler_facts",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 6
+      },
+      "unknown": 6
+    },
+    {
+      "arm": "plan_generic@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "off_script",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "spoiler_facts",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 1
+      },
+      "unknown": 1
+    },
+    {
+      "arm": "plan_generic@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "on_script",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "spoiler_facts",
+      "model": "gemini-3.5-flash-lite",
+      "n": 1,
+      "provenance": {
+        "assumed": 1,
+        "review pending": 6
+      },
+      "unknown": 6
+    },
+    {
+      "arm": "plan_in_character@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "all",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "spoiler_facts",
+      "model": "gemini-3.5-flash-lite",
+      "n": 1,
+      "provenance": {
+        "assumed": 1,
+        "review pending": 13
+      },
+      "unknown": 13
+    },
+    {
+      "arm": "plan_in_character@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "adversarial",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "spoiler_facts",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 6
+      },
+      "unknown": 6
+    },
+    {
+      "arm": "plan_in_character@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "off_script",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": null,
+      "k": 0,
+      "metric": "spoiler_facts",
+      "model": "gemini-3.5-flash-lite",
+      "n": 0,
+      "provenance": {
+        "review pending": 1
+      },
+      "unknown": 1
+    },
+    {
+      "arm": "plan_in_character@v4",
+      "audit_coverage": {
+        "k": 0,
+        "n": 0
+      },
+      "class": "on_script",
+      "descriptive": true,
+      "detected": true,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "k": 0,
+      "metric": "spoiler_facts",
+      "model": "gemini-3.5-flash-lite",
+      "n": 1,
+      "provenance": {
+        "assumed": 1,
+        "review pending": 6
+      },
+      "unknown": 6
+    }
+  ],
+  "audit": {
+    "audit_fraction": 0.1,
+    "audit_seed": 0,
+    "awaiting_review": 6,
+    "cohort_replicates": [
+      1
+    ],
+    "coverage": {
+      "k": 6,
+      "n": 8
+    },
+    "coverage_by_arm_model": {
+      "direct@v4|gemini-3.5-flash-lite": {
+        "k": 2,
+        "n": 2
+      },
+      "plan_generic@v4|gemini-3.5-flash-lite": {
+        "k": 2,
+        "n": 3
+      },
+      "plan_in_character@v4|gemini-3.5-flash-lite": {
+        "k": 2,
+        "n": 3
+      }
+    },
+    "inconclusive": 0,
+    "miss_rate": {
+      "interval": null,
+      "k": 0,
+      "n": 0
+    }
+  },
+  "bootstrap": {
+    "level": 0.95,
+    "resamples": 2000,
+    "seed": 0,
+    "unit": "family"
+  },
+  "detected_semantic_error_rate": {
+    "banned_content": {
+      "all": {
+        "k": 0,
+        "n": 2,
+        "unknown": 40
+      },
+      "by_class": {
+        "adversarial": {
+          "k": 0,
+          "n": 0,
+          "unknown": 18
+        },
+        "off_script": {
+          "k": 0,
+          "n": 0,
+          "unknown": 3
+        },
+        "on_script": {
+          "k": 0,
+          "n": 2,
+          "unknown": 19
+        }
+      }
+    },
+    "collapse": {
+      "all": {
+        "k": 0,
+        "n": 2,
+        "unknown": 40
+      },
+      "by_class": {
+        "adversarial": {
+          "k": 0,
+          "n": 0,
+          "unknown": 18
+        },
+        "off_script": {
+          "k": 0,
+          "n": 0,
+          "unknown": 3
+        },
+        "on_script": {
+          "k": 0,
+          "n": 2,
+          "unknown": 19
+        }
+      }
+    },
+    "entity_register": {
+      "all": {
+        "k": 0,
+        "n": 2,
+        "unknown": 40
+      },
+      "by_class": {
+        "adversarial": {
+          "k": 0,
+          "n": 0,
+          "unknown": 18
+        },
+        "off_script": {
+          "k": 0,
+          "n": 0,
+          "unknown": 3
+        },
+        "on_script": {
+          "k": 0,
+          "n": 2,
+          "unknown": 19
+        }
+      }
+    },
+    "forbidden_facts": {
+      "all": {
+        "k": 0,
+        "n": 2,
+        "unknown": 40
+      },
+      "by_class": {
+        "adversarial": {
+          "k": 0,
+          "n": 0,
+          "unknown": 18
+        },
+        "off_script": {
+          "k": 0,
+          "n": 0,
+          "unknown": 3
+        },
+        "on_script": {
+          "k": 0,
+          "n": 2,
+          "unknown": 19
+        }
+      }
+    },
+    "spoiler_facts": {
+      "all": {
+        "k": 0,
+        "n": 2,
+        "unknown": 40
+      },
+      "by_class": {
+        "adversarial": {
+          "k": 0,
+          "n": 0,
+          "unknown": 18
+        },
+        "off_script": {
+          "k": 0,
+          "n": 0,
+          "unknown": 3
+        },
+        "on_script": {
+          "k": 0,
+          "n": 2,
+          "unknown": 19
+        }
+      }
+    }
+  },
+  "execution_failure_rate": {
+    "all": {
+      "k": 0,
+      "n": 42
+    },
+    "by_class": {
+      "adversarial": {
+        "k": 0,
+        "n": 18
+      },
+      "off_script": {
+        "k": 0,
+        "n": 3
+      },
+      "on_script": {
+        "k": 0,
+        "n": 21
+      }
+    }
+  },
+  "families": {
+    "by_class": {
+      "adversarial": 1,
+      "off_script": 1,
+      "on_script": 1
+    },
+    "unique": 1
+  },
+  "latency_total_ms": {
+    "median": 1965.6231499910355,
+    "n": 42,
+    "p90": 2224.480640003085
+  },
+  "latency_ttft_ms": {
+    "median": 1657.366099998355,
+    "n": 42,
+    "p90": 1881.9760000064969
+  },
+  "overplay_rate": {
+    "all": {
+      "k": 1,
+      "n": 42,
+      "unknown": 0
+    },
+    "by_class": {
+      "adversarial": {
+        "k": 1,
+        "n": 18,
+        "unknown": 0
+      },
+      "off_script": {
+        "k": 0,
+        "n": 3,
+        "unknown": 0
+      },
+      "on_script": {
+        "k": 0,
+        "n": 21,
+        "unknown": 0
+      }
+    }
+  },
+  "paired_differences": [
+    {
+      "arm": "direct@v4",
+      "descriptive": true,
+      "difference": 0.0,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "metric": "execution_failure",
+      "model": "gemini-3.5-flash-lite",
+      "primary": false,
+      "provenance": {
+        "direct@v4": {
+          "mechanical": 14
+        },
+        "plan_generic@v4": {
+          "mechanical": 14
+        }
+      },
+      "unknown": {
+        "direct@v4": 0,
+        "plan_generic@v4": 0
+      },
+      "versus": "plan_generic@v4"
+    },
+    {
+      "arm": "direct@v4",
+      "descriptive": true,
+      "difference": 0.0,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "metric": "execution_failure",
+      "model": "gemini-3.5-flash-lite",
+      "primary": true,
+      "provenance": {
+        "direct@v4": {
+          "mechanical": 14
+        },
+        "plan_in_character@v4": {
+          "mechanical": 14
+        }
+      },
+      "unknown": {
+        "direct@v4": 0,
+        "plan_in_character@v4": 0
+      },
+      "versus": "plan_in_character@v4"
+    },
+    {
+      "arm": "plan_generic@v4",
+      "descriptive": true,
+      "difference": 0.0,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "metric": "execution_failure",
+      "model": "gemini-3.5-flash-lite",
+      "primary": false,
+      "provenance": {
+        "plan_generic@v4": {
+          "mechanical": 14
+        },
+        "plan_in_character@v4": {
+          "mechanical": 14
+        }
+      },
+      "unknown": {
+        "plan_generic@v4": 0,
+        "plan_in_character@v4": 0
+      },
+      "versus": "plan_in_character@v4"
+    },
+    {
+      "arm": "direct@v4",
+      "descriptive": true,
+      "difference": 0.0,
+      "families": 1,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "metric": "overplay",
+      "model": "gemini-3.5-flash-lite",
+      "primary": false,
+      "provenance": {
+        "direct@v4": {
+          "mechanical": 14
+        },
+        "plan_generic@v4": {
+          "mechanical": 14
+        }
+      },
+      "unknown": {
+        "direct@v4": 0,
+        "plan_generic@v4": 0
+      },
+      "versus": "plan_generic@v4"
+    },
+    {
+      "arm": "direct@v4",
+      "descriptive": true,
+      "difference": -0.07142857142857142,
+      "families": 1,
+      "interval": [
+        -0.07142857142857142,
+        -0.07142857142857142
+      ],
+      "metric": "overplay",
+      "model": "gemini-3.5-flash-lite",
+      "primary": true,
+      "provenance": {
+        "direct@v4": {
+          "mechanical": 14
+        },
+        "plan_in_character@v4": {
+          "mechanical": 14
+        }
+      },
+      "unknown": {
+        "direct@v4": 0,
+        "plan_in_character@v4": 0
+      },
+      "versus": "plan_in_character@v4"
+    },
+    {
+      "arm": "plan_generic@v4",
+      "descriptive": true,
+      "difference": -0.07142857142857142,
+      "families": 1,
+      "interval": [
+        -0.07142857142857142,
+        -0.07142857142857142
+      ],
+      "metric": "overplay",
+      "model": "gemini-3.5-flash-lite",
+      "primary": false,
+      "provenance": {
+        "plan_generic@v4": {
+          "mechanical": 14
+        },
+        "plan_in_character@v4": {
+          "mechanical": 14
+        }
+      },
+      "unknown": {
+        "plan_generic@v4": 0,
+        "plan_in_character@v4": 0
+      },
+      "versus": "plan_in_character@v4"
+    }
+  ],
+  "retries": {
+    "replies_retried": {
+      "k": 0,
+      "n": 42
+    },
+    "retries": 0
+  },
+  "run_id": "gemini-v4-full-01",
+  "status": "descriptive",
+  "tokens": {
+    "complete": true,
+    "input": 101046,
+    "output": 5299,
+    "replies_with_unknown_usage": 0
+  },
+  "turns_to_failure": {
+    "overplay": {
+      "censored": 5,
+      "failed": 1,
+      "incomplete": 0,
+      "scripts": [
+        {
+          "arm_id": "direct@v4",
+          "model": "gemini-3.5-flash-lite",
+          "outcome": "censored",
+          "replicate": 1,
+          "scenario_id": "mh-dev-09-insults",
+          "turn": 3,
+          "turns": 3
+        },
+        {
+          "arm_id": "direct@v4",
+          "model": "gemini-3.5-flash-lite",
+          "outcome": "censored",
+          "replicate": 1,
+          "scenario_id": "mh-dev-10-false-mechanics",
+          "turn": 3,
+          "turns": 3
+        },
+        {
+          "arm_id": "plan_generic@v4",
+          "model": "gemini-3.5-flash-lite",
+          "outcome": "censored",
+          "replicate": 1,
+          "scenario_id": "mh-dev-09-insults",
+          "turn": 3,
+          "turns": 3
+        },
+        {
+          "arm_id": "plan_generic@v4",
+          "model": "gemini-3.5-flash-lite",
+          "outcome": "censored",
+          "replicate": 1,
+          "scenario_id": "mh-dev-10-false-mechanics",
+          "turn": 3,
+          "turns": 3
+        },
+        {
+          "arm_id": "plan_in_character@v4",
+          "model": "gemini-3.5-flash-lite",
+          "outcome": "censored",
+          "replicate": 1,
+          "scenario_id": "mh-dev-09-insults",
+          "turn": 3,
+          "turns": 3
+        },
+        {
+          "arm_id": "plan_in_character@v4",
+          "model": "gemini-3.5-flash-lite",
+          "outcome": "failed",
+          "replicate": 1,
+          "scenario_id": "mh-dev-10-false-mechanics",
+          "turn": 1,
+          "turns": 3
+        }
+      ]
+    }
+  }
+}

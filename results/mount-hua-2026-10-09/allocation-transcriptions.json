@@ -1,0 +1,837 @@
+[
+  {
+    "recording_key": "58758627b10bd9427cfeca6a4d7f5b560a922445f38261c11f07f1df04fdd12d",
+    "run_id": "groq-v4-full-01",
+    "scenario_id": "mh-dev-01-assassin",
+    "arm_id": "direct@v4",
+    "turn_index": 0,
+    "expected_pool": 20,
+    "added_S_A_V_Q": [
+      4,
+      10,
+      6,
+      0
+    ]
+  },
+  {
+    "recording_key": "71e9ebd429a2ffccd67c4d055c1942dd7b4df8f844f3da4270000a91e3c69e7f",
+    "run_id": "groq-v4-full-01",
+    "scenario_id": "mh-dev-01-assassin",
+    "arm_id": "plan_generic@v4",
+    "turn_index": 0,
+    "expected_pool": 20,
+    "added_S_A_V_Q": [
+      5,
+      10,
+      4,
+      1
+    ]
+  },
+  {
+    "recording_key": "b963298df1d1ac86902af029f7b5a95a0e35fd052ef7950a67e2ffd3c6a35019",
+    "run_id": "groq-v4-full-01",
+    "scenario_id": "mh-dev-01-assassin",
+    "arm_id": "plan_in_character@v4",
+    "turn_index": 0,
+    "expected_pool": 20,
+    "added_S_A_V_Q": [
+      4,
+      10,
+      5,
+      1
+    ]
+  },
+  {
+    "recording_key": "fe52aa3d68dc7b0ecee4486d637a5c77cf79b6c0e282568f5610bf9861fb6f75",
+    "run_id": "groq-v4-full-01",
+    "scenario_id": "mh-dev-02-fighter",
+    "arm_id": "plan_generic@v4",
+    "turn_index": 0,
+    "expected_pool": 20,
+    "added_S_A_V_Q": [
+      10,
+      0,
+      8,
+      2
+    ]
+  },
+  {
+    "recording_key": "f83d801b90cab92649e28b49d15d4a8253602f8f831c215a532145e4edab3419",
+    "run_id": "groq-v4-full-01",
+    "scenario_id": "mh-dev-02-fighter",
+    "arm_id": "plan_in_character@v4",
+    "turn_index": 0,
+    "expected_pool": 20,
+    "added_S_A_V_Q": [
+      10,
+      2,
+      7,
+      1
+    ]
+  },
+  {
+    "recording_key": "d34a00f802a51fd7e7c8f402f02ea30a39f8337580759349fe4dc384ec5694eb",
+    "run_id": "groq-v4-full-01",
+    "scenario_id": "mh-dev-02-fighter",
+    "arm_id": "direct@v4",
+    "turn_index": 0,
+    "expected_pool": 20,
+    "added_S_A_V_Q": [
+      7,
+      3,
+      8,
+      0
+    ]
+  },
+  {
+    "recording_key": "4053d4a2118fb8ca7ad13960794d88373cd95d87a2a1580a4c0e975080c67683",
+    "run_id": "groq-v4-full-01",
+    "scenario_id": "mh-dev-03-hybrid",
+    "arm_id": "plan_in_character@v4",
+    "turn_index": 0,
+    "expected_pool": 20,
+    "added_S_A_V_Q": [
+      4,
+      8,
+      7,
+      1
+    ]
+  },
+  {
+    "recording_key": "f61886479e4d6d84f17281abac5b97a32c061e1928fee9b1eebc931bbadda582",
+    "run_id": "groq-v4-full-01",
+    "scenario_id": "mh-dev-03-hybrid",
+    "arm_id": "direct@v4",
+    "turn_index": 0,
+    "expected_pool": 20,
+    "added_S_A_V_Q": [
+      2,
+      8,
+      8,
+      0
+    ]
+  },
+  {
+    "recording_key": "722c02962f16af6bc127f50381e91ad01eb1f378827c6b12e9f8ab6b76bf894c",
+    "run_id": "groq-v4-full-01",
+    "scenario_id": "mh-dev-03-hybrid",
+    "arm_id": "plan_generic@v4",
+    "turn_index": 0,
+    "expected_pool": 20,
+    "added_S_A_V_Q": [
+      4,
+      8,
+      7,
+      1
+    ]
+  },
+  {
+    "recording_key": "dab9a8e903b469ed0abebbd0a1428bc31df7a29e252d03e19350b1aa014280d1",
+    "run_id": "groq-v4-full-01",
+    "scenario_id": "mh-dev-04-techniques",
+    "arm_id": "direct@v4",
+    "turn_index": 0,
+    "expected_pool": 12,
+    "added_S_A_V_Q": [
+      0,
+      0,
+      4,
+      8
+    ]
+  },
+  {
+    "recording_key": "9ecf6e6b8f34cda426f30270deaa65196d0096a3944d6ad257f225b5539d029c",
+    "run_id": "groq-v4-full-01",
+    "scenario_id": "mh-dev-04-techniques",
+    "arm_id": "plan_generic@v4",
+    "turn_index": 0,
+    "expected_pool": 12,
+    "added_S_A_V_Q": [
+      0,
+      0,
+      6,
+      6
+    ]
+  },
+  {
+    "recording_key": "9f3377522030385f3e5503250a66e31308cfca49d472356b647cb87170c0acc1",
+    "run_id": "groq-v4-full-01",
+    "scenario_id": "mh-dev-04-techniques",
+    "arm_id": "plan_in_character@v4",
+    "turn_index": 0,
+    "expected_pool": 12,
+    "added_S_A_V_Q": [
+      0,
+      0,
+      4,
+      8
+    ]
+  },
+  {
+    "recording_key": "be1c76a65cf125993fbe293b6cd55b7ce329218f77b6c73827ec2c8f2e4b28ea",
+    "run_id": "groq-v4-full-01",
+    "scenario_id": "mh-dev-06-fragile-survivor",
+    "arm_id": "plan_in_character@v4",
+    "turn_index": 0,
+    "expected_pool": 10,
+    "added_S_A_V_Q": [
+      0,
+      6,
+      4,
+      0
+    ]
+  },
+  {
+    "recording_key": "d93db07bfbfdacf1de04fbfbb5388b645a79e5b51dc3152bd40594d509cb6625",
+    "run_id": "groq-v4-full-01",
+    "scenario_id": "mh-dev-06-fragile-survivor",
+    "arm_id": "direct@v4",
+    "turn_index": 0,
+    "expected_pool": 10,
+    "added_S_A_V_Q": [
+      0,
+      2,
+      8,
+      0
+    ]
+  },
+  {
+    "recording_key": "082c2e89dd6afd8d856478bbf6a5a5ac74f60bd363351ce9dc80f8946e080069",
+    "run_id": "groq-v4-full-01",
+    "scenario_id": "mh-dev-06-fragile-survivor",
+    "arm_id": "plan_generic@v4",
+    "turn_index": 0,
+    "expected_pool": 10,
+    "added_S_A_V_Q": [
+      0,
+      0,
+      8,
+      2
+    ]
+  },
+  {
+    "recording_key": "b3c39c20b6ccb5963f5ddc64cc3d9af9f57de5b83032aec2c5d86bae48559793",
+    "run_id": "groq-v4-full-01",
+    "scenario_id": "mh-dev-09-insults",
+    "arm_id": "plan_in_character@v4",
+    "turn_index": 0,
+    "expected_pool": 10,
+    "added_S_A_V_Q": [
+      4,
+      1,
+      4,
+      1
+    ]
+  },
+  {
+    "recording_key": "7c662e03e4ccfbafabe9de2313f50bcb27da17ca3c0908bdf7949bc666d44486",
+    "run_id": "groq-v4-full-01",
+    "scenario_id": "mh-dev-09-insults",
+    "arm_id": "plan_in_character@v4",
+    "turn_index": 2,
+    "expected_pool": 10,
+    "added_S_A_V_Q": [
+      4,
+      1,
+      4,
+      1
+    ]
+  },
+  {
+    "recording_key": "d5aa43fd55ca1af168cd892ca53973aefeb8ec9bbb56840caecab359d2537ae6",
+    "run_id": "groq-v4-full-01",
+    "scenario_id": "mh-dev-09-insults",
+    "arm_id": "direct@v4",
+    "turn_index": 0,
+    "expected_pool": 10,
+    "added_S_A_V_Q": [
+      4,
+      1,
+      4,
+      1
+    ]
+  },
+  {
+    "recording_key": "1480393fb09f717dfa3e967100c5d384ba248f9cbbff76845fc4058fd8e27822",
+    "run_id": "groq-v4-full-01",
+    "scenario_id": "mh-dev-09-insults",
+    "arm_id": "direct@v4",
+    "turn_index": 2,
+    "expected_pool": 10,
+    "added_S_A_V_Q": [
+      4,
+      1,
+      4,
+      1
+    ]
+  },
+  {
+    "recording_key": "63e61d115b52a8e44d5e064a6dd036a2677af80b26dfa2eb42d499b57969ca59",
+    "run_id": "groq-v4-full-01",
+    "scenario_id": "mh-dev-09-insults",
+    "arm_id": "plan_generic@v4",
+    "turn_index": 0,
+    "expected_pool": 10,
+    "added_S_A_V_Q": [
+      4,
+      1,
+      4,
+      1
+    ]
+  },
+  {
+    "recording_key": "0fb85e1bf629279989dbae5a17a7ae1dcf81d965025cd9e3e747ecebe106faf0",
+    "run_id": "groq-v4-full-01",
+    "scenario_id": "mh-dev-09-insults",
+    "arm_id": "plan_generic@v4",
+    "turn_index": 2,
+    "expected_pool": 10,
+    "added_S_A_V_Q": [
+      4,
+      1,
+      4,
+      1
+    ]
+  },
+  {
+    "recording_key": "ee34862ac71d00c4b1fac85843366400d7f6e9214a580d214e3d91d51ae551f3",
+    "run_id": "groq-v4-full-01",
+    "scenario_id": "mh-dev-10-false-mechanics",
+    "arm_id": "direct@v4",
+    "turn_index": 0,
+    "expected_pool": 20,
+    "added_S_A_V_Q": [
+      0,
+      10,
+      10,
+      0
+    ]
+  },
+  {
+    "recording_key": "d322b10eff2574b22afb74a3d808ebf84e26e369bf68b3da45cf575cca3027ae",
+    "run_id": "groq-v4-full-01",
+    "scenario_id": "mh-dev-10-false-mechanics",
+    "arm_id": "direct@v4",
+    "turn_index": 1,
+    "expected_pool": 20,
+    "added_S_A_V_Q": [
+      0,
+      10,
+      10,
+      0
+    ]
+  },
+  {
+    "recording_key": "0e5310b7ef1b05725535ad964e82431f5efc5cf07077e63819fd55de763e2d00",
+    "run_id": "groq-v4-full-01",
+    "scenario_id": "mh-dev-10-false-mechanics",
+    "arm_id": "direct@v4",
+    "turn_index": 2,
+    "expected_pool": 20,
+    "added_S_A_V_Q": [
+      0,
+      10,
+      10,
+      0
+    ]
+  },
+  {
+    "recording_key": "0e7fab7617d81af8a57f6704d05491bc20b7295e16d46097cdb76fe070fe833c",
+    "run_id": "groq-v4-full-01",
+    "scenario_id": "mh-dev-10-false-mechanics",
+    "arm_id": "plan_generic@v4",
+    "turn_index": 0,
+    "expected_pool": 20,
+    "added_S_A_V_Q": [
+      0,
+      15,
+      5,
+      0
+    ]
+  },
+  {
+    "recording_key": "10c6b3aabd212bf8eaa09bf7494d9438da00ac47f6dd69c9a058fdf0a5960f90",
+    "run_id": "groq-v4-full-01",
+    "scenario_id": "mh-dev-10-false-mechanics",
+    "arm_id": "plan_generic@v4",
+    "turn_index": 1,
+    "expected_pool": 20,
+    "added_S_A_V_Q": [
+      0,
+      15,
+      5,
+      0
+    ]
+  },
+  {
+    "recording_key": "807b34406a647578c817c6ca9960bdea746803c9b9c7da0481242db7dab6e388",
+    "run_id": "groq-v4-full-01",
+    "scenario_id": "mh-dev-10-false-mechanics",
+    "arm_id": "plan_generic@v4",
+    "turn_index": 2,
+    "expected_pool": 20,
+    "added_S_A_V_Q": [
+      0,
+      15,
+      5,
+      0
+    ]
+  },
+  {
+    "recording_key": "f0c4c36432d8a8ae5949fbd406920bbe87f9e3080d657973b96fbaa987662318",
+    "run_id": "groq-v4-full-01",
+    "scenario_id": "mh-dev-10-false-mechanics",
+    "arm_id": "plan_in_character@v4",
+    "turn_index": 0,
+    "expected_pool": 20,
+    "added_S_A_V_Q": [
+      0,
+      10,
+      10,
+      0
+    ]
+  },
+  {
+    "recording_key": "8cfd52cf4f27daa26e27b91fb92abc17594ff828a84eee311a5d99f39163f716",
+    "run_id": "groq-v4-full-01",
+    "scenario_id": "mh-dev-10-false-mechanics",
+    "arm_id": "plan_in_character@v4",
+    "turn_index": 1,
+    "expected_pool": 20,
+    "added_S_A_V_Q": [
+      0,
+      10,
+      10,
+      0
+    ]
+  },
+  {
+    "recording_key": "b7955a87fd023130c1e24821cabd83e8778ab095f3170a0c21b05156a75e20c7",
+    "run_id": "groq-v4-full-01",
+    "scenario_id": "mh-dev-10-false-mechanics",
+    "arm_id": "plan_in_character@v4",
+    "turn_index": 2,
+    "expected_pool": 20,
+    "added_S_A_V_Q": [
+      0,
+      10,
+      10,
+      0
+    ]
+  },
+  {
+    "recording_key": "3be954d7794ad1f7cd34734a9e9cbaf92d2d659e6d94790c91f7cf2507854f54",
+    "run_id": "gemini-v4-full-01",
+    "scenario_id": "mh-dev-01-assassin",
+    "arm_id": "direct@v4",
+    "turn_index": 0,
+    "expected_pool": 20,
+    "added_S_A_V_Q": [
+      2,
+      14,
+      3,
+      1
+    ]
+  },
+  {
+    "recording_key": "e863f5ec09115951642ce66cb6b58ae2d2ff4dfcfdf20c3d8dfae8471cfd8085",
+    "run_id": "gemini-v4-full-01",
+    "scenario_id": "mh-dev-01-assassin",
+    "arm_id": "plan_generic@v4",
+    "turn_index": 0,
+    "expected_pool": 20,
+    "added_S_A_V_Q": [
+      2,
+      12,
+      2,
+      4
+    ]
+  },
+  {
+    "recording_key": "695542f27a60ad5574f555195993fe27dc42ad562debfcf8fba0b55e1e7cd97e",
+    "run_id": "gemini-v4-full-01",
+    "scenario_id": "mh-dev-01-assassin",
+    "arm_id": "plan_in_character@v4",
+    "turn_index": 0,
+    "expected_pool": 20,
+    "added_S_A_V_Q": [
+      2,
+      12,
+      2,
+      4
+    ]
+  },
+  {
+    "recording_key": "6268a0788cdf36a08e224b846e38a13b87a38cea7801fc1b066c8e71655a136b",
+    "run_id": "gemini-v4-full-01",
+    "scenario_id": "mh-dev-02-fighter",
+    "arm_id": "plan_generic@v4",
+    "turn_index": 0,
+    "expected_pool": 20,
+    "added_S_A_V_Q": [
+      8,
+      3,
+      8,
+      1
+    ]
+  },
+  {
+    "recording_key": "805958bc75461d20567664b114d194b7329155d88d9b768d82221d86a770b5fe",
+    "run_id": "gemini-v4-full-01",
+    "scenario_id": "mh-dev-02-fighter",
+    "arm_id": "plan_in_character@v4",
+    "turn_index": 0,
+    "expected_pool": 20,
+    "added_S_A_V_Q": [
+      12,
+      2,
+      4,
+      2
+    ]
+  },
+  {
+    "recording_key": "10c171dd32ac9e68391f0c19f71edf6914fef8e772dd2d6b6768e9ac4f9973f8",
+    "run_id": "gemini-v4-full-01",
+    "scenario_id": "mh-dev-02-fighter",
+    "arm_id": "direct@v4",
+    "turn_index": 0,
+    "expected_pool": 20,
+    "added_S_A_V_Q": [
+      8,
+      0,
+      8,
+      4
+    ]
+  },
+  {
+    "recording_key": "13a079cab679475ffb0be0f91d945a6a1ffff431656e51de4ceb4b20c2b7e9b1",
+    "run_id": "gemini-v4-full-01",
+    "scenario_id": "mh-dev-03-hybrid",
+    "arm_id": "plan_in_character@v4",
+    "turn_index": 0,
+    "expected_pool": 20,
+    "added_S_A_V_Q": [
+      2,
+      7,
+      8,
+      3
+    ]
+  },
+  {
+    "recording_key": "f3d9860514a8d7641ee7c36dfec7623e229552a72167623a2a31db016649063e",
+    "run_id": "gemini-v4-full-01",
+    "scenario_id": "mh-dev-03-hybrid",
+    "arm_id": "direct@v4",
+    "turn_index": 0,
+    "expected_pool": 20,
+    "added_S_A_V_Q": [
+      5,
+      7,
+      5,
+      3
+    ]
+  },
+  {
+    "recording_key": "7549633323d12ca43fcd48482f1dade854bbb5b63b6a6c4e89a96f5b27b19278",
+    "run_id": "gemini-v4-full-01",
+    "scenario_id": "mh-dev-03-hybrid",
+    "arm_id": "plan_generic@v4",
+    "turn_index": 0,
+    "expected_pool": 20,
+    "added_S_A_V_Q": [
+      2,
+      9,
+      9,
+      0
+    ]
+  },
+  {
+    "recording_key": "1b9159e4e220bd68bf586c9796b12378201cb7af203257f5b3bcc06261beab95",
+    "run_id": "gemini-v4-full-01",
+    "scenario_id": "mh-dev-04-techniques",
+    "arm_id": "direct@v4",
+    "turn_index": 0,
+    "expected_pool": 12,
+    "added_S_A_V_Q": [
+      0,
+      0,
+      6,
+      6
+    ]
+  },
+  {
+    "recording_key": "bc1a3ed5f66b68431ad666d640e2782312f2d8f2a8a9ff3418ca0ac75e06b5c0",
+    "run_id": "gemini-v4-full-01",
+    "scenario_id": "mh-dev-04-techniques",
+    "arm_id": "plan_generic@v4",
+    "turn_index": 0,
+    "expected_pool": 12,
+    "added_S_A_V_Q": [
+      2,
+      1,
+      3,
+      6
+    ]
+  },
+  {
+    "recording_key": "024bd353beee3a8307c89be535fa98cb783807bfc368b4e56474fecf7b2cd4fb",
+    "run_id": "gemini-v4-full-01",
+    "scenario_id": "mh-dev-04-techniques",
+    "arm_id": "plan_in_character@v4",
+    "turn_index": 0,
+    "expected_pool": 12,
+    "added_S_A_V_Q": [
+      1,
+      2,
+      5,
+      4
+    ]
+  },
+  {
+    "recording_key": "a9e220fbae1f379dbcf222f7b7b54e27b7239ee5f8a1cbb651741fcc3dd5d777",
+    "run_id": "gemini-v4-full-01",
+    "scenario_id": "mh-dev-06-fragile-survivor",
+    "arm_id": "plan_in_character@v4",
+    "turn_index": 0,
+    "expected_pool": 10,
+    "added_S_A_V_Q": [
+      0,
+      6,
+      4,
+      0
+    ]
+  },
+  {
+    "recording_key": "6b5b266eaacc03ec3e250e14fa493ab781e5f343d2555af088cd47c6515491df",
+    "run_id": "gemini-v4-full-01",
+    "scenario_id": "mh-dev-06-fragile-survivor",
+    "arm_id": "direct@v4",
+    "turn_index": 0,
+    "expected_pool": 10,
+    "added_S_A_V_Q": [
+      0,
+      4,
+      6,
+      0
+    ]
+  },
+  {
+    "recording_key": "4ccf4558bba7660bf5f5ff78154286e6b6fcb2160f7c2e9d9cd8a6ee473216ae",
+    "run_id": "gemini-v4-full-01",
+    "scenario_id": "mh-dev-06-fragile-survivor",
+    "arm_id": "plan_generic@v4",
+    "turn_index": 0,
+    "expected_pool": 10,
+    "added_S_A_V_Q": [
+      0,
+      6,
+      4,
+      0
+    ]
+  },
+  {
+    "recording_key": "a710f1a845cc02d6c492247dd4593d2b278f8a821240e4c39039db6029dd0510",
+    "run_id": "gemini-v4-full-01",
+    "scenario_id": "mh-dev-09-insults",
+    "arm_id": "plan_in_character@v4",
+    "turn_index": 0,
+    "expected_pool": 10,
+    "added_S_A_V_Q": [
+      4,
+      1,
+      4,
+      1
+    ]
+  },
+  {
+    "recording_key": "d48ea0bd002f8feed4ebde3683a4c684b21498afc2681932b369bfa374f39f43",
+    "run_id": "gemini-v4-full-01",
+    "scenario_id": "mh-dev-09-insults",
+    "arm_id": "plan_in_character@v4",
+    "turn_index": 2,
+    "expected_pool": 10,
+    "added_S_A_V_Q": [
+      4,
+      1,
+      4,
+      1
+    ]
+  },
+  {
+    "recording_key": "6fe6cf9f03809aed9f004f6892e5ecbae8b96232d8179f6834276090e134ed4e",
+    "run_id": "gemini-v4-full-01",
+    "scenario_id": "mh-dev-09-insults",
+    "arm_id": "direct@v4",
+    "turn_index": 0,
+    "expected_pool": 10,
+    "added_S_A_V_Q": [
+      4,
+      0,
+      4,
+      2
+    ]
+  },
+  {
+    "recording_key": "4d22a602a315be44352a0d472ec6423dd60baa97ae012b97890a8d84679e6911",
+    "run_id": "gemini-v4-full-01",
+    "scenario_id": "mh-dev-09-insults",
+    "arm_id": "direct@v4",
+    "turn_index": 2,
+    "expected_pool": 10,
+    "added_S_A_V_Q": [
+      6,
+      0,
+      4,
+      0
+    ]
+  },
+  {
+    "recording_key": "f7e147f0b21ed7357f269c7d4151166b7f8f1e473c2ce711ce7b0da8f1169ae8",
+    "run_id": "gemini-v4-full-01",
+    "scenario_id": "mh-dev-09-insults",
+    "arm_id": "plan_generic@v4",
+    "turn_index": 0,
+    "expected_pool": 10,
+    "added_S_A_V_Q": [
+      4,
+      0,
+      6,
+      0
+    ]
+  },
+  {
+    "recording_key": "e400bae3ee5ffe5ba04cde26e6092964b069bb38656e97df2cb7095f46138fec",
+    "run_id": "gemini-v4-full-01",
+    "scenario_id": "mh-dev-09-insults",
+    "arm_id": "plan_generic@v4",
+    "turn_index": 2,
+    "expected_pool": 10,
+    "added_S_A_V_Q": [
+      6,
+      0,
+      4,
+      0
+    ]
+  },
+  {
+    "recording_key": "83ad6a9eaa3418a38b3e316506f10286d8493a4607e0547ecf7ec0862aec28c0",
+    "run_id": "gemini-v4-full-01",
+    "scenario_id": "mh-dev-10-false-mechanics",
+    "arm_id": "direct@v4",
+    "turn_index": 0,
+    "expected_pool": 20,
+    "added_S_A_V_Q": [
+      0,
+      10,
+      10,
+      0
+    ]
+  },
+  {
+    "recording_key": "0ef686f19165d918d903dab83aa46f89985eb32bc767361ee8b2981298d9d269",
+    "run_id": "gemini-v4-full-01",
+    "scenario_id": "mh-dev-10-false-mechanics",
+    "arm_id": "direct@v4",
+    "turn_index": 1,
+    "expected_pool": 20,
+    "added_S_A_V_Q": [
+      0,
+      10,
+      10,
+      0
+    ]
+  },
+  {
+    "recording_key": "70a8d3b2eaf54aee8367c366ce6ac5e338722fba3c3f7126c3ce80516b5430e9",
+    "run_id": "gemini-v4-full-01",
+    "scenario_id": "mh-dev-10-false-mechanics",
+    "arm_id": "direct@v4",
+    "turn_index": 2,
+    "expected_pool": 20,
+    "added_S_A_V_Q": [
+      0,
+      12,
+      8,
+      0
+    ]
+  },
+  {
+    "recording_key": "3508514b3ad445fb05c7290530dc66d2b12b1f2ed3e57cbb40297bb4cdf47760",
+    "run_id": "gemini-v4-full-01",
+    "scenario_id": "mh-dev-10-false-mechanics",
+    "arm_id": "plan_generic@v4",
+    "turn_index": 0,
+    "expected_pool": 20,
+    "added_S_A_V_Q": [
+      0,
+      10,
+      10,
+      0
+    ]
+  },
+  {
+    "recording_key": "12ee5155f0f09c7bf710b3d7516eb1cc10b12b5b5060a696047d2cc8a6f8988b",
+    "run_id": "gemini-v4-full-01",
+    "scenario_id": "mh-dev-10-false-mechanics",
+    "arm_id": "plan_generic@v4",
+    "turn_index": 1,
+    "expected_pool": 20,
+    "added_S_A_V_Q": [
+      0,
+      10,
+      10,
+      0
+    ]
+  },
+  {
+    "recording_key": "c935a02ee6639915ba437736bd7d351e7c653a985a8c3c84c70e91d4024e4152",
+    "run_id": "gemini-v4-full-01",
+    "scenario_id": "mh-dev-10-false-mechanics",
+    "arm_id": "plan_generic@v4",
+    "turn_index": 2,
+    "expected_pool": 20,
+    "added_S_A_V_Q": [
+      0,
+      10,
+      10,
+      0
+    ]
+  },
+  {
+    "recording_key": "2f0d5597f80cd384626db1cf13ddc489f25c1569394dd6b634ea8598a8d4f47d",
+    "run_id": "gemini-v4-full-01",
+    "scenario_id": "mh-dev-10-false-mechanics",
+    "arm_id": "plan_in_character@v4",
+    "turn_index": 0,
+    "expected_pool": 20,
+    "added_S_A_V_Q": [
+      0,
+      10,
+      10,
+      0
+    ]
+  },
+  {
+    "recording_key": "67b38992b975b4be8422b090c17fe08e98e06ebf797eeaf191ef3df3e32c3851",
+    "run_id": "gemini-v4-full-01",
+    "scenario_id": "mh-dev-10-false-mechanics",
+    "arm_id": "plan_in_character@v4",
+    "turn_index": 1,
+    "expected_pool": 20,
+    "added_S_A_V_Q": null
+  },
+  {
+    "recording_key": "ba14fe0da65d61c434c4cce2add2bc4d480665e27e4e88183a9daae24c2229b8",
+    "run_id": "gemini-v4-full-01",
+    "scenario_id": "mh-dev-10-false-mechanics",
+    "arm_id": "plan_in_character@v4",
+    "turn_index": 2,
+    "expected_pool": 20,
+    "added_S_A_V_Q": [
+      0,
+      10,
+      10,
+      0
+    ]
+  }
+]

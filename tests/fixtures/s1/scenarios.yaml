@@ -1,0 +1,17 @@
+# Minimal S1 fixture suite: synthetic, not part of the benchmark content.
+- id: c-fixture-on-001
+  character: fixture-fence
+  class: on_script
+  story_point: act-1
+  family_id: fixture-on-01
+  split: dev
+  turns:
+    - player: "What are you selling today?"
+- id: c-fixture-off-001
+  character: fixture-fence
+  class: off_script
+  story_point: act-1
+  family_id: fixture-off-01
+  split: dev
+  turns:
+    - player: "Do you like the rain?"

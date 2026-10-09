@@ -1,0 +1,16 @@
+{
+  "name": "mount-hua-npc-demo",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "start": "python serve.py",
+    "check": "hyperframes lint scene",
+    "test": "node --test allocation.test.mjs"
+  },
+  "dependencies": {
+    "@hyperframes/player": "0.8.143",
+    "gsap": "3.15.0",
+    "hyperframes": "0.8.143"
+  },
+  "type": "module"
+}

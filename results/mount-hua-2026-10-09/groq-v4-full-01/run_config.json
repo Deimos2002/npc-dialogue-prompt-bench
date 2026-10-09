@@ -1,0 +1,117 @@
+{
+  "arm_order": {
+    "mh-dev-01-assassin": [
+      "direct@v4",
+      "plan_generic@v4",
+      "plan_in_character@v4"
+    ],
+    "mh-dev-02-fighter": [
+      "plan_generic@v4",
+      "plan_in_character@v4",
+      "direct@v4"
+    ],
+    "mh-dev-03-hybrid": [
+      "plan_in_character@v4",
+      "direct@v4",
+      "plan_generic@v4"
+    ],
+    "mh-dev-04-techniques": [
+      "direct@v4",
+      "plan_generic@v4",
+      "plan_in_character@v4"
+    ],
+    "mh-dev-05-missing-context": [
+      "plan_generic@v4",
+      "plan_in_character@v4",
+      "direct@v4"
+    ],
+    "mh-dev-06-fragile-survivor": [
+      "plan_in_character@v4",
+      "direct@v4",
+      "plan_generic@v4"
+    ],
+    "mh-dev-07-no-points": [
+      "direct@v4",
+      "plan_generic@v4",
+      "plan_in_character@v4"
+    ],
+    "mh-dev-08-rushing": [
+      "plan_generic@v4",
+      "plan_in_character@v4",
+      "direct@v4"
+    ],
+    "mh-dev-09-insults": [
+      "plan_in_character@v4",
+      "direct@v4",
+      "plan_generic@v4"
+    ],
+    "mh-dev-10-false-mechanics": [
+      "direct@v4",
+      "plan_generic@v4",
+      "plan_in_character@v4"
+    ]
+  },
+  "arms": [
+    {
+      "arm_id": "direct@v4",
+      "prompt_version": "v4",
+      "strategy": "direct"
+    },
+    {
+      "arm_id": "plan_generic@v4",
+      "prompt_version": "v4",
+      "strategy": "plan_generic"
+    },
+    {
+      "arm_id": "plan_in_character@v4",
+      "prompt_version": "v4",
+      "strategy": "plan_in_character"
+    }
+  ],
+  "inputs": {
+    "character": {
+      "path": "data/pilots/mount-hua/characters/elder.yaml",
+      "sha256": "44432cad6d8364b115b507278e369e4a4b83fe790432bc75ecc6a8960a64467d"
+    },
+    "prompt:direct@v4": {
+      "path": "data/pilots/mount-hua/prompts/direct/v4.md",
+      "sha256": "06e843a0db2ec0b1285d2d44f1b8776d4a019a0c400119e9ce8834dd81167940"
+    },
+    "prompt:plan_generic@v4": {
+      "path": "data/pilots/mount-hua/prompts/plan_generic/v4.md",
+      "sha256": "5e44d3839c6a28a521e84b509b310557c7c7c5f787d7816ab436bd3612a358a1"
+    },
+    "prompt:plan_in_character@v4": {
+      "path": "data/pilots/mount-hua/prompts/plan_in_character/v4.md",
+      "sha256": "1fe69e8c76efd4c40d0fe09ab2064e74c04b78cee77ab0fafaf5485c777e62b2"
+    },
+    "scenarios": {
+      "path": "data/pilots/mount-hua/scenarios/dev.yaml",
+      "sha256": "574966b23de0e0ae0a49049ca496b66d44c1500f1fb4fac34714a4c20e60f3dc"
+    },
+    "world": {
+      "path": "data/pilots/mount-hua/world",
+      "sha256": "caea220ab89db292cc485574c33e16770828c2ca078cf2196c0aa7f54765f7be"
+    }
+  },
+  "model": "qwen/qwen3.8-27b",
+  "params": {
+    "temperature": 0.7
+  },
+  "provider": "groq",
+  "reasoning": {
+    "disabled": true,
+    "setting": "disabled"
+  },
+  "recordings_sha256": "a098f3abf3aab7dd58f2c9e4d8457c95e10512ad19f4341536ad29ac615c8555",
+  "reply_token_cap": 512,
+  "request_interval_seconds": 20.0,
+  "run_id": "groq-v4-full-01",
+  "semantic_review_cohort": {
+    "audit_fraction": 0.1,
+    "audit_seed": 0,
+    "replicates": [
+      0
+    ]
+  }
+}
